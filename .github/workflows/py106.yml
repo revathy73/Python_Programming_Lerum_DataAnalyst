@@ -1,0 +1,16 @@
+name: Module 106
+
+on:
+  workflow_run:
+    workflows: [Project Initialization]
+    types:
+      - completed
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: linero-tech/linero-tech/.github/workflows/autograding-py.yml@v2.4.0
+    with:
+      module_id: py106
+    secrets: inherit

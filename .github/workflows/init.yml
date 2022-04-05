@@ -1,0 +1,12 @@
+name: Project Initialization
+
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: linero-tech/linero-tech/.github/workflows/init-py.yml@v2.4.0
+    secrets: inherit
