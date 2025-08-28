@@ -2,4 +2,7 @@ from to_do import TODO
 
 
 def guide7() -> str:
-    return TODO("Erase this line and write your solution")
+    return """
+         WHILE given number is not multiple of 2
+               INPUT number
+        """
