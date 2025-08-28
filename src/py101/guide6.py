@@ -2,4 +2,9 @@ from to_do import TODO
 
 
 def guide6() -> str:
-    return TODO("Erase this line and write your solution")
+    return """
+    Input number X
+    FOR number Y from 1 to 1000
+        IF Y is divisble by X
+            OUTPUT number Y
+    """
