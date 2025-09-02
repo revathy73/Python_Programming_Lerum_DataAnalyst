@@ -6,9 +6,10 @@ def task4() -> str:
     Input value of X
     Input value of Y
     
-    Use MAX() for compare greater for Two Numbers
-       IF X is greater than equal to Y
+       IF X is greater than Y
           OUTPUT X
-       ELSE 
+       ELSE IF Y is greater than X
           OUTPUT Y
+       ELSE 
+          OUTPUT ERROR   
     """
