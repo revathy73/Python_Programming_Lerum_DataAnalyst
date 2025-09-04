@@ -19,8 +19,6 @@ def task5() -> str:
     OUTPUT "SATURDAY"
     ELSE IF X is equal to 7 THEN
     OUTPUT "SUNDAY"
-    ELSE IF X is equal to 8 THEN
-    OUTPUT "MONDAY"
     ELSE
     OUTPUT "INVALID DAY"
     """
