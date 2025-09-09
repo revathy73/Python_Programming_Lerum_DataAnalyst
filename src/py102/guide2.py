@@ -2,8 +2,8 @@ from to_do import TODO
 
 
 def guide2(base: float, height: float) -> float:
-    area_of_triangle = base * height * 0.5
-    return area_of_triangle
+    result = base * height * 0.5
+    return result
 
 if __name__ == "__main__":
 
