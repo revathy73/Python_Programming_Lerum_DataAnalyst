@@ -8,8 +8,8 @@ def guide3(radius: float) -> float:
     # Output the Result
 
     pi = 3.1416
-    volume_of_sphere = pi * (radius**3) * (4/3)
-    return volume_of_sphere
+    result = pi * (radius**3) * (4/3)
+    return result
 
 if __name__ == "__main__":
 
