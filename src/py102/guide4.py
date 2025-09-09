@@ -3,8 +3,8 @@ from to_do import TODO
 
 def guide4(length: float) -> float:
 
-    perimeter_of_square = 4 * length
-    return perimeter_of_square
+    result = 4 * length
+    return result
 
 if __name__ == "__main__":
 
