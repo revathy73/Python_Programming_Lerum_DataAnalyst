@@ -1,5 +1,27 @@
 if __name__ == "__main__":
 
+      sentence = "SWEDEN"
+
+      first_letter = sentence[0]
+      second_letter = sentence[1]
+      last_letter = sentence[-1]
+      second_to_last = sentence[-2]
+      first3_letters = sentence[0:3]
+      length_of_the_string = len(sentence)
+      index_of_last_letter = len(sentence)-1
+      last_letter_identify = sentence[index_of_last_letter]
+
+      print(f"The first letter is {first_letter}")
+      print(f"The second letter is {second_letter}")
+      print(f"The last letter is {last_letter}")
+      print(f"The second letter from last is {second_to_last}")
+      print(f"The first three letter is {first3_letters}")
+      print(f"The string length is {length_of_the_string}")
+      print(f"The last letter index is {index_of_last_letter}")
+      print(f"The last letter is {last_letter_identify}")
+
+
+      """
       # Syntax Rule #1: Var names can contain letter, numbers and underscores
       name = "Revathy"
       country = "India"
@@ -43,7 +65,7 @@ if __name__ == "__main__":
 
       # x = 30 insted of age =30
 
-      """ 
+    
       # Variable names are case sensitive
       # Parts of a variable creation
       
