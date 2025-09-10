@@ -2,6 +2,20 @@ from to_do import TODO
 
 
 def guide14(sales: str) -> int:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    # Input as Scandinavia countries
+    # Find out number sales in Sweden
+
+    result = sales.count('S')
+    return result
+
+
+if __name__ == "__main__":
+
+    # Sales = DSFSNII ---> 2
+    print(guide14(sales = "DSFSNII"))
+
+    # sales = NDFDIF ---> 0
+    print(guide14(sales = "NDFDIF"))
+
+    # sales = FSNID ---> 1
+    print(guide14(sales = "FSNID") )
