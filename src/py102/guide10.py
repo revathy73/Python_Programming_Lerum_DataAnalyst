@@ -2,6 +2,23 @@ from to_do import TODO
 
 
 def guide10(sales: str) -> str:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    # Input sales as Scandinavia countries
+    # Find out last sale of Input
+
+    result = sales[- 1]
+    return result
+
+if __name__ == "__main__":
+
+    # sales = SDNFISD --> D
+    print(guide10(sales = "SDNFISD"))
+
+    # sales = DNFSIDS --> S
+    print(guide10(sales = "DNFSIDS"))
+
+    # sales = NFSDIFN --> N
+    print(guide10(sales = "NFSDIFN"))
+
+
+    # sales = FSDISIF --> F
+    print(guide10(sales ="FSDISIF"))
