@@ -7,6 +7,14 @@ if __name__ == "__main__":
       age = 35
       course = "Data Analyst"
 
+      # Method 1 : Ugly method string concatenation
+      sentence = "Hello " +name+ " you come from " +country+ " and you speak " +language
+      print(sentence)
+
+      # Method 2 : f-string (f = format)
+      new_sentence = f"Hello {name} you come from {country} and you speak {language}"
+      print(new_sentence)
+
       # Syntax Rule #2: Var names cannot begin with a number
       # 2nd_number = "Olivia"
 
