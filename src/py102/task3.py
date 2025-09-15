@@ -11,5 +11,5 @@ def task3(radius: float) -> float:
 
 if __name__ == "__main__":
 
-    # radius = 5
-    print(task3(radius = 5.0))
+    # radius = 7
+    print(task3(radius = 7.0))
