@@ -7,7 +7,6 @@ def task4(base: float, height: float) -> float:
     # Calculate the Area of Triangle
 
     result = 0.5 * base * height
-
     return result
 
 if __name__ == "__main__":
