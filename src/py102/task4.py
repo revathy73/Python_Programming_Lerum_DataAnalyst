@@ -12,5 +12,5 @@ def task4(base: float, height: float) -> float:
 
 if __name__ == "__main__":
 
-    # base = 6.0, height =4.0
-    print(task4(base = 6.0, height = 4.0))
+    # base = 4.0, height =4.0
+    print(task4(base = 4.0, height = 4.0))
