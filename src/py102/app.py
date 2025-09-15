@@ -10,7 +10,7 @@ if __name__ == "__main__":
     print(sentence3)
 
     sentence4 = "This is \ngoing in a\n new line"
-    print(sentence4) 
+    print(sentence4)
 
 
 
@@ -112,5 +112,7 @@ if __name__ == "__main__":
     
     name = input("> what is your name?")
     print("Your name is ---> " + name)
+    
+    
     """
 
