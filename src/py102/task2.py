@@ -11,5 +11,5 @@ def task2(name: str, country: str, month: str) -> str:
 
 if __name__ == "__main__":
 
-    # name = "Ria", country= "Korea", month = "October"
+    # name = "Lia", country= "Korea", month = "October"
     print(task2(name = "Ria", country = "Korea", month = "October"))
