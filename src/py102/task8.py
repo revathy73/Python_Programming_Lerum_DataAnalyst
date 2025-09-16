@@ -5,6 +5,7 @@ def task8(sentence: str, character: str) -> int:
 
     # INPUT the text
     # Count number times the character occurs in the text
+    # Output the result
 
     result = sentence.count('I')
     return result
