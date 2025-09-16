@@ -5,6 +5,8 @@ def task7(sentence: str) -> int:
 
     # Input the sentence
     # Find out length of the string
+    # Output the result
+
     result = len(sentence)
     return result
 
