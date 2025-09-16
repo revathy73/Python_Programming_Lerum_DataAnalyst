@@ -2,6 +2,12 @@ from to_do import TODO
 
 
 def task9(sentence: str, character: str) -> bool:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    result = 'U' in sentence
+    return result
+
+
+if __name__ == "__main__":
+
+    # sentence = EUROPE
+    print(task9(sentence = "EUROPE", character = "U"))
