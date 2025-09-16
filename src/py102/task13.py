@@ -2,6 +2,11 @@ from to_do import TODO
 
 
 def task13(assessments: str) -> str:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    result = assessments [0:3]
+    return result
+
+if __name__ == "__main__":
+
+    #assessments = LMHFFLM
+    print(task13(assessments="LMHFFLM"))
