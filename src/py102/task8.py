@@ -7,7 +7,7 @@ def task8(sentence: str, character: str) -> int:
     # Count number times the character occurs in the text
     # Output the result
 
-    result = sentence.count('I')
+    result = sentence.count(character)
     return result
 
 if __name__ == "__main__":

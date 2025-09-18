@@ -7,7 +7,7 @@ def task9(sentence: str, character: str) -> bool:
     # Find out the character occurs in the text
     # Output the result
 
-    result = 'U' in sentence
+    result = 'character' in sentence
     return result
 
 
