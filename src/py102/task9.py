@@ -7,11 +7,11 @@ def task9(sentence: str, character: str) -> bool:
     # Find out the character occurs in the text
     # Output the result
 
-    result = 'character' in sentence
+    result = character.upper() in sentence.upper()
     return result
 
 
 if __name__ == "__main__":
 
     # sentence = EUROPE
-    print(task9(sentence = "EUROPE", character = "U"))
+    print(task9(sentence = "KOTLIN", character = "i"))
