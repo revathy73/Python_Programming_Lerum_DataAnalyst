@@ -4,10 +4,14 @@ from to_do import TODO
 def guide1(country: str) -> bool:
     # If country sweden gives output true
     # else false
+
+    return country.lower() == "sweden"
+    """
     if country.lower() == "sweden":
        return True
     else:
        return False
+    """
 
 
 if  __name__ == "__main__":
