@@ -5,10 +5,10 @@ def guide1(country: str) -> bool:
     # If country sweden gives output true
     # else false
     if country.lower() == "sweden":
-       result = True
+       return True
     else:
-        result = False
-    return result
+       return False
+
 
 if  __name__ == "__main__":
 
