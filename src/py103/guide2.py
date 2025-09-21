@@ -10,6 +10,8 @@ def guide2(month: str) -> bool:
 
      return result
 
+     # return month.lower == "november"
+
      #return month.upper() == "NOVEMBER"
 
 
