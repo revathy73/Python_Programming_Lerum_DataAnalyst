@@ -11,6 +11,7 @@ def guide3(age: int) -> bool:
     return result
 
     # return age >= 18
+    # return not (age <= 17)
 
 if __name__ == "__main__":
 
