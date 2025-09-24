@@ -9,7 +9,8 @@ def guide14(a: int, b: int) -> int:
     result = 0
     for number in range(a, b + 1):
         if number % 2 == 0:
-            result = result + number
+        #    result = result + number
+             result += number
 
     return result
 
