@@ -67,7 +67,7 @@ if __name__ == "__main__":
     sentence = "Welcome to Python"
     for letter in sentence:
         print(letter)
-         """
+         
 
     # combine decision making with Looping
 
@@ -87,6 +87,24 @@ if __name__ == "__main__":
         print(f"The variable number has a value of {integer}")
 
     print(number) ----> o/p: 1000
+
+    # Range of loops va Iterations
+    for age in range(50, 55):
+        print(age)
+        
+        """
+
+    # Example of FOR LOOP
+
+    name = "python"
+    for letter in name:
+        print(letter)
+
+    for index,letter in enumerate(name):
+        print(f" At position {index} ---> {letter}")
+
+    for number in range(1, 11):
+        print(number)
 
 
 
