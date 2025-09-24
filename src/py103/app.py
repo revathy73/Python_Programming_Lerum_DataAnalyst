@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
     # ORDER OF PRECEDENCE
     print(f"NOT A AND B OR NOT A ---> {not A and B or not A}")
-    """
+    
 
     capital = "oslo"
     continent = "Europe"
@@ -47,4 +47,46 @@ if __name__ == "__main__":
     else:
         country = "N/A"
     print(f"The country is {country}")
+    
+    
+    for iteration in range(1, 10):
+        print("Welcome to python")
+        print("We are learning control flow")
+
+    for iteration in range(1, 10):
+        print(iteration)
+
+    for number in range(1, 10):
+        print(number)
+
+    # Looping for a number 
+    for number in range(1, 10):
+        print(f"The variable number has a value of {number}")
+   
+    # Looping for a string
+    sentence = "Welcome to Python"
+    for letter in sentence:
+        print(letter)
+         """
+
+    # combine decision making with Looping
+
+    for number in range(1, 30):
+        if number % 2 == 0:
+            print(number)
+
+    number = 1000
+    for number in range(1, 11):
+        print(f"The variable number has a value of {number}")
+
+    print(number)  ----> o/p : 10
+
+
+    number =1000
+    for integer in range(1, 11):
+        print(f"The variable number has a value of {integer}")
+
+    print(number) ----> o/p: 1000
+
+
 
