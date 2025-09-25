@@ -92,7 +92,7 @@ if __name__ == "__main__":
     for age in range(50, 55):
         print(age)
         
-        """
+     
 
     # Example of FOR LOOP
 
@@ -105,6 +105,26 @@ if __name__ == "__main__":
 
     for number in range(1, 11):
         print(number)
+        
+    """
+    # While loop
+    counter = 0
+    while counter < 10:
+        print(f"Hello world ---> {counter}")
+        counter += 1
 
+
+    # Looping over the letter of a string
+    counter = 0
+    sentence = "Hello World"
+    while counter < len(sentence):
+        print(f"{sentence[counter]}")
+        counter += 1
+
+    # Looping over a range of number
+    counter2 = 1
+    while counter2 < 11:
+        print(counter2)
+        counter2 += 1
 
 
