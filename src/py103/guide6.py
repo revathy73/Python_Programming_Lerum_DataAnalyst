@@ -35,9 +35,6 @@ def guide6(age: int) -> str:
     else:
         return "senior adult"
 
-
-
-
 if __name__ == "__main__":
 
         # age = 1   ---> infant
