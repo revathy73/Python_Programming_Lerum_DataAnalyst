@@ -106,7 +106,7 @@ if __name__ == "__main__":
     for number in range(1, 11):
         print(number)
         
-    """
+    
     # While loop
     counter = 0
     while counter < 10:
@@ -126,5 +126,22 @@ if __name__ == "__main__":
     while counter2 < 11:
         print(counter2)
         counter2 += 1
+        
+        
+    number = 678
+    result = number / 10
+    print(result)
+
+    number1 = 678
+    result1 = number1 // 10
+    print(result1)
+
+    number2 = 678
+    result2 = number2 % 10
+    print(result2)
+    
+    """
+
+
 
 
