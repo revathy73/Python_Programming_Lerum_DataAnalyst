@@ -1,5 +1,6 @@
 if __name__ == "__main__":
 
+    """
     new_sentence = "I want to watch the movie \"Avengers\""
     print(new_sentence)
 
@@ -15,7 +16,7 @@ if __name__ == "__main__":
 
 
 
-    """
+    
     sentence = "SWEDEN"
 
     first_letter = sentence[0]
@@ -114,5 +115,31 @@ if __name__ == "__main__":
     print("Your name is ---> " + name)
     
     
-    """
+   
+
+    sentence = "python"
+    print(f"{sentence[-5:-1]}")
+
+    sentence = "python"
+    print(f"{sentence[-6:]}")
+     """
+
+    sentence = "AaaBbbCccDdd"
+    #print(f"{sentence[::1]}")
+    #print(f"{sentence[::2]}")
+    print(f"{sentence[::3]}")
+
+    #print(f"{sentence[-6::2]}")
+    #print(f"{sentence[-3:]}")
+
+
+    print(f"{sentence[1::2]}")
+
+
+
+
+
+
+
+
 
