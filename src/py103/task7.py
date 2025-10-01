@@ -5,10 +5,12 @@ from to_do import TODO
 
 def task7(a: int, b: int) -> int:
 
-    result = 1
-
-    for integer in range(1, b+1):  #  for integer in range(b):
-        result = result * a
+    if a == b:
+        return 1
+    else:
+        result = 1
+        for integer in range(1, b+1):  #  for integer in range(b):
+            result = result * a
 
     return result
 
@@ -20,5 +22,12 @@ if __name__ == "__main__":
 
     # a=3 , b= 5
     print(task7(a=3, b=5))
+
+    # a=1 , b= 1
+    print(task7(a=1, b=1))
+
+
+
+
 
 
