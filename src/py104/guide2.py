@@ -31,9 +31,6 @@ def guide2(items: list[int]) -> int:
     #else:
     #   return third_element
 
-
-
-
 if  __name__ == "__main__":
 
     # items = [40, 45, 60]
