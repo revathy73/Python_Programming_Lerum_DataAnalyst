@@ -13,7 +13,7 @@ def guide7(items: list[int]) -> list[int]:
     # solution in list comprehension
     result = [item * index for index,item in enumerate(items)]
     return result
-    
+
     """
     # solution in list comprehension (Refactoring)
     return [index * item for index,item in enumerate(items)]
