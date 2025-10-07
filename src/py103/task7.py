@@ -5,7 +5,7 @@ from to_do import TODO
 
 def task7(a: int, b: int) -> int:
 
-    if a == b:
+    if a and b == 0:
         return 1
 
     result = 1
@@ -25,8 +25,6 @@ if __name__ == "__main__":
 
     # a=1 , b= 1
     print(task7(a=1, b=1))
-
-
 
 
 
