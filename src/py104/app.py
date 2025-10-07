@@ -136,6 +136,12 @@ if __name__ == "__main__":
     for index,country in enumerate(countries):
         print(f"The country at position of {index} = {country}")
 
+    solution 1: for (guide6) List comprehension
+    result = [number for number in items if number % 5 == 0 and number > 10]
+    return result
+
+    solution 2: for (guide6) List comprehension (refactoring)
+    return [number for number in items if number % 5 == 0 and number > 10]
 
 
 
