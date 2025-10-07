@@ -16,10 +16,14 @@ def guide9(items: list[int]) -> list[int]:
     # solution 2: list comprehension
     result = [number for number in items if number % 10 == 0]
     return result
+
     """
+
     # solution 2: filtering a list
     result = filter(lambda number: number % 10 == 0 ,items)
     return list(result)
+
+
 
 if __name__ == "__main__":
 
