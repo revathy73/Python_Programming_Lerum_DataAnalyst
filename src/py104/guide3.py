@@ -11,10 +11,9 @@ def guide3(items: list[str]) -> int:
     size_of_the_countries = len(items) - 1
     first_element = items[0]
     length_first_element = len(first_element)
-    result = size_of_the_countries * length_first_element
-
-    return result
-
+    return size_of_the_countries * length_first_element
+    # length_first_element = len(items[0])
+    # return (len(items) - 1) * len(items[0])
 
 if __name__ == "__main__":
         # countries = ["sweden","norway"]
