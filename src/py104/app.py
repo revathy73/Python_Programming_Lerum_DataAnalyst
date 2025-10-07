@@ -1,3 +1,5 @@
+import string
+
 if __name__ == "__main__":
 
     # Introduction to a list
@@ -84,7 +86,7 @@ if __name__ == "__main__":
     print(f"The last index = {last_index}")
     print(f"The last element = {country_2[last_index]}")
     
-    """
+    
     # Properties of List
     countries = ["Panama 1","Panama 2","Panama 3","Panama 4"]
     # prop #1: Allow for duplicate values
@@ -101,8 +103,26 @@ if __name__ == "__main__":
     #prop #3: Items are changeable(add,delete,update items)
     countries.append("Sweden") # add
     del countries[0]  # delete
-    countries[1] = "Spain"
+    countries[1] = "Spain" # insert an list
     print(countries)
+    
+    """
+
+
+    print(string.ascii_lowercase)
+    print(string.ascii_uppercase)
+    print(string.ascii_letters)
+
+    alphabet = string.ascii_lowercase
+    result = []
+
+    for index, letter in enumerate(alphabet):
+        if index % 2 == 0:
+            result.append(letter.upper())
+        else:
+            result.append(letter.lower())
+
+    return result
 
 
 
