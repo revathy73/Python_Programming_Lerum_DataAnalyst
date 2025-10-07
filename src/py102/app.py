@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
 
     print(f"{sentence[1::2]}")
-    print(f"the lenghth is : {len(sentence)}")
+    print(f"The Lenghth is : {len(sentence)}")
 
 
 
