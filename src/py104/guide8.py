@@ -14,7 +14,7 @@ def guide8(items: list[str]) -> list[str]:
 
     return result
 
-    # solution 2: comprehension
+    # solution 2: list comprehension
     scandinavia = ["denmark", "norway", "sweden", "finland", "iceland", "faroe islands", "greenland", "åland"]
     return [country for country in items if country.lower() in scandinavia]
 
