@@ -106,9 +106,6 @@ if __name__ == "__main__":
     countries[1] = "Spain" # insert an list
     print(countries)
     
-    """
-
-
     print(string.ascii_lowercase)
     print(string.ascii_uppercase)
     print(string.ascii_letters)
@@ -123,6 +120,22 @@ if __name__ == "__main__":
             result.append(letter.lower())
 
     return result
+    
+    """
+    # loop over a number
+    for number in range(1, 6):
+        print(number)
+
+    # loop over a sentence
+    sentence = "hello to sweden"
+    for letter in sentence:
+        print(letter)
+
+    # loop over a list
+    countries = ["Panama","Sweden"]
+    for index,country in enumerate(countries):
+        print(f"The country at position of {index} = {country}")
+
 
 
 
