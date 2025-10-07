@@ -1,5 +1,6 @@
 if __name__ == "__main__":
 
+    # Introduction to a list
     """
     # create a variable
     country = "Panama"
@@ -14,14 +15,16 @@ if __name__ == "__main__":
     print(f"The capital of each country is {capitals}")
 
     Cap1 = ["Panama"] # If suppose am not giving list of capitals
-    print(f"The capital of the country is {Cap1}")
-
+    print(f"The capital of the country is {Cap1}") 
+    
     # Method2 : list(( )) --symbol is here imporatnt
     cities =  list(("colon", "Gbg", "Valencia", "Porto"))
     print(f"The cities from each country = {cities}")
 
     city2 = list(("Panama",)) # If suppose am not giving list of cities see here
-    print(f"The city of the country is {city2}") ---> o/p : ('P','a','n','a','m','a')
+    print(f"The city of the country is {city2}")  ---> o/p : ['Panama']
+    
+    ---> o/p : ('P','a','n','a','m','a')
 
     # Datatype we can store ---> String
     Language = ["ES", "Sv", "ES", "PT"]
@@ -55,7 +58,7 @@ if __name__ == "__main__":
     countries.remove("Venus")
     print(f"My updated country list is after deleting {countries}")
     
-    """
+    # Index and Access operators
 
     country_2 = ["Panama", "sweden", "norway"]
     # 1: Indices start at 0
@@ -76,10 +79,33 @@ if __name__ == "__main__":
     # Relationship between the size of the List and the last index
     # last_index =  size of the list -1
     size_of_list = len(country_2)
-    last_index = size_of_list -1
+    last_index = size_of_list - 1
     print(f"The size of the list is {size_of_list}")
     print(f"The last index = {last_index}")
     print(f"The last element = {country_2[last_index]}")
+    
+    """
+    # Properties of List
+    countries = ["Panama 1","Panama 2","Panama 3","Panama 4"]
+    # prop #1: Allow for duplicate values
+    print(countries)
+
+    # prop #2: Items are ordered
+    # Items have a defined index
+    # Items can be access using an index
+    print(countries[0])
+    print(countries[1])
+    print(countries[2])
+    print(countries[3])
+
+    #prop #3: Items are changeable(add,delete,update items)
+    countries.append("Sweden") # add
+    del countries[0]  # delete
+    countries[1] = "Spain"
+    print(countries)
+
+
+
 
 
 
