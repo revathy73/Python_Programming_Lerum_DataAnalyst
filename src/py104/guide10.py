@@ -31,11 +31,11 @@ def guide10(items: list[str]) -> list[str]:
 
     # solution 3: Transform a list
 
-    tranformed_list = map(
+    transformed_list = map(
         lambda index_element: index_element[1].upper() if index_element[0] % 2 == 0 else index_element[1].lower(),
         enumerate(items)
     )
-    return list(tranformed_list)
+    return list(transformed_list)
     """
 
     # solution 3: Transform a list (Refactoring)
