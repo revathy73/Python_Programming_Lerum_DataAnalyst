@@ -143,8 +143,7 @@ if __name__ == "__main__":
 
     solution 2: for (guide6) List comprehension (refactoring)
     return [number for number in items if number % 5 == 0 and number > 10]
-    
-     """
+   
     # Filter method:
     scandinavia = ["denmark", "norway", "sweden", "finland", "iceland", "faroe islands", "greenland", "åland"]
     filtered_list = filter(lambda country:country.lower() in scandinavia, items)
@@ -160,6 +159,55 @@ if __name__ == "__main__":
     Here index_element[1] ----> refers item
     Here index_element[1] - ---> refers index (because we cant allow to use item instead of that
     we need to access here both index and item, so we are using index_element)
+    
+    
+    countries = ["Panama", "Sweden", "Finland"]
+    print(countries)
+    print(type(countries))
+
+    countries_list = list(("Panama", "Sweden", "Finland"))
+    print(countries)
+    """
+    ##     TUPLE ##
+    programming = ("python", "java", "kotlin")
+    print(type(programming))
+
+    programming1 = tuple(("python", "java", "kotlin"))
+    print(f" The programming languages are : {programming}")
+
+    programming = tuple(("python"))  # ---> ('p', 'y', 't', 'h', 'o', 'n')
+    print(f" The programming languages are : {programming}")
+
+    programming = tuple(("python",)) # ---> ('python',)
+    print(f" The programming languages are : {programming}")
+
+    # what data can i put in the tuple?
+    #string
+    creator = ("Jetbrains", "Guido van Rossum", "Sun Microsystems")
+    print(f"The creator of each PL is: {creator}")
+
+    # Int
+    creation_date = (2010, 1991, 1995)
+    print(f"The creation_date of each PL is: {creation_date}")
+
+    # Float
+    developers = (4.8, 6.2, 7.3)
+    print(f"The developers of each PL is: {developers}")
+
+    # Loop over a tuple
+    for language in programming1:
+        print(f"I like the PL = {language}")
+
+    for index, language in enumerate(programming1):
+        print(f"I like the PL {index}= {language}")
+
+    # Access elements
+    print(f"The first PL is {programming1[0]}")
+    print(f"The first PL is {programming1[1]}")
+    print(f"The first PL is {programming1[2]}")
+
+
+
 
 
 
