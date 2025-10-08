@@ -3,7 +3,7 @@ from to_do import TODO
 
 def guide10(items: list[str]) -> list[str]:
     """
-    # solution 1: for loop
+    # solution 1: for loop no ternary operator
     result = []
     for index,item in enumerate(items):
         if index % 2 == 0:

@@ -3,7 +3,7 @@ from to_do import TODO
 
 def guide11(items: list[int]) -> list[int]:
     """
-    # solution 1: for loop
+    # solution 1: for loop no ternary operator
     result = []
     for number in items:
         if number % 11 == 0:
@@ -13,7 +13,7 @@ def guide11(items: list[int]) -> list[int]:
 
     return result
 
-    # solution 1: for loop (Ternary operator)
+    # solution 1: for loop with Ternary operator)
     result = []
     for number in items:
         value =number * 3 if number % 11 == 0 else number

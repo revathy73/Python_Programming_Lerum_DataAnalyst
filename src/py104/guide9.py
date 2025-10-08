@@ -5,7 +5,7 @@ from to_do import TODO
 
 def guide9(items: list[int]) -> list[int]:
     """
-    # solution 1:
+    # solution 1: for loop no ternary operator
     result = []
     for number in items:
         if number % 10 == 0:
@@ -13,12 +13,12 @@ def guide9(items: list[int]) -> list[int]:
 
     return result
 
+
     # solution 2: list comprehension
     result = [number for number in items if number % 10 == 0]
     return result
 
     """
-
     # solution 2: filtering a list
     result = filter(lambda number: number % 10 == 0 ,items)
     return list(result)
