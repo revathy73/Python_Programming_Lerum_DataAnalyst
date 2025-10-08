@@ -1,4 +1,5 @@
 import string
+from operator import index
 
 if __name__ == "__main__":
 
@@ -121,7 +122,7 @@ if __name__ == "__main__":
 
     return result
     
-    """
+   
     # loop over a number
     for number in range(1, 6):
         print(number)
@@ -142,6 +143,25 @@ if __name__ == "__main__":
 
     solution 2: for (guide6) List comprehension (refactoring)
     return [number for number in items if number % 5 == 0 and number > 10]
+    
+     """
+    # Filter method:
+    scandinavia = ["denmark", "norway", "sweden", "finland", "iceland", "faroe islands", "greenland", "åland"]
+    filtered_list = filter(lambda country:country.lower() in scandinavia, items)
+    return list(filtered_list)
+
+    # Transform a list(Refactoring)
+
+    return list(map(
+        lambda index_element: index_element[1].upper() if index_element[0] % 2 == 0 else index_element[1].lower(),
+        enumerate(items)
+    ))
+
+    Here index_element[1] ----> refers item
+    Here index_element[1] - ---> refers index (because we cant allow to use item instead of that
+    we need to access here both index and item, so we are using index_element)
+
+
 
 
 
