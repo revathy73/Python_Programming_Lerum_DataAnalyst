@@ -36,8 +36,6 @@ def guide11(items: list[int]) -> list[int]:
     # solution 3: Transform a list (Refactoring)
     return list(map(lambda  number: number * 3 if number % 11 == 0 else number, items))
 
-
-
 if __name__ == "__main__":
 
     # items = [99, 78, 66, 55, 9, 10]

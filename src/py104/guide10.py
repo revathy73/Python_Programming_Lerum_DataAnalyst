@@ -45,8 +45,6 @@ def guide10(items: list[str]) -> list[str]:
         enumerate(items)
         ))
 
-
-
 if __name__ == "__main__":
 
     # items = ["KOTLIN", "python", "Linero Tech", "jetbrains"]
