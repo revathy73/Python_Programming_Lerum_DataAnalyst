@@ -25,6 +25,6 @@ def guide15(items: tuple[str]) -> bool:
 
 if __name__ == "__main__":
     # items = ["John","Jane","Roberto","Mary","Persona"]
-    print(guide15(items=("John","Jane","Roberto","Mary","Persona")))
+    print(guide15(items = ("John","Jane","Roberto","Mary","Persona")))
 
-    print(guide15(items=("John","Jane","jade","Mary","Persona")))
+    print(guide15(items = ("John","Jane","jade","Mary","Persona")))
