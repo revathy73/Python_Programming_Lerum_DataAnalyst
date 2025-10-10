@@ -167,8 +167,9 @@ if __name__ == "__main__":
 
     countries_list = list(("Panama", "Sweden", "Finland"))
     print(countries)
-    """
+    
     ##     TUPLE ##
+    # How do create a Tuple?
     programming = ("python", "java", "kotlin")
     print(type(programming))
 
@@ -205,6 +206,76 @@ if __name__ == "__main__":
     print(f"The first PL is {programming1[0]}")
     print(f"The first PL is {programming1[1]}")
     print(f"The first PL is {programming1[2]}")
+        
+    # How do create a Set?
+    greetings = {"hello","hi","hej"}
+    print(f"The set creation is here : {greetings}")
+    print(type(greetings))
+
+    #  Method 2: set()
+    bye = set(("chao","bye","hejdå"))
+    print(bye)
+    
+    # prop1: no duplicate elements
+    countries = {"PA","PA","PA"}
+    print(countries)  # ---> {"PA"}
+    print(len(countries))
+    print(type(countries))
+
+    # prop1:  unordered --> elements cannot be accessed using an index
+    # There is not an define order
+    # print(countries[0])  # ---> it will give a error
+
+    # prop 3: changeable (mutable)"
+    # ---> Add
+    # ---> Remove
+    # ---> cannot update
+    countries1 = {"PA", "PT", "IT"}
+    print(countries1)
+
+    countries1.add("SV")
+    print(countries1)
+    countries1.remove("PT")
+    print(countries1)
+    # countries1[0] = "SA"   ---> we cannot do update in Set. it will throw error
+    # print(countries1)   bcoz,elements cannot be accessed using an index
+    
+    # SET OPERATIONS (SET METHODS)
+    # 1. add(): Add an item to the set
+    my_set = {1,2,3}
+    print(f"before add : {my_set}")
+    my_set.add(4)
+    print(f"after add : {my_set}")
+    # remove(): Remove an item from the set
+    my_set.remove(2)
+    print(f"after remove: {my_set}")
+    # union: Combine two Sets
+    set_A = {1,2,3}
+    set_B = {1,4,5,6}
+    set_c = set_A.union(set_B)
+    print(f"set_A: {set_A}")
+    print(f"set_B: {set_B}")
+    print(f"after union : set_c: {set_c}")
+    """
+    #4. intersect: Find the common items between two sets
+    set_D = {1,2,3}
+    set_E = {1,4,5,6}
+    set_F = set_D.intersection(set_E)
+    print(f"after intersect: = {set_F} ")
+    # 5. difference: Subtract one set from another
+    set_G = {1,2,3,4,5,6}
+    set_H = {4,5,6}
+    set_I = set_G.difference(set_H)
+    print(f"f after subtraction: {set_I}")
+
+
+
+
+
+
+
+
+
 
 
 
