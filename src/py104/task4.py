@@ -10,7 +10,6 @@ def task4(items: list[int], factor: int) -> list[int]:
 
     return result
 if __name__ == "__main__":
-
     # items = [1, 2, 4, 5, 6], factor = 2
     print(task4(items = [1, 2, 4, 5, 6], factor = 2))
 
