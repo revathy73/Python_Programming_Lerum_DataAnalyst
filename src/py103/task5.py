@@ -3,8 +3,10 @@ from to_do import TODO
 
 def task5(sentence: str) -> int:
 
-    no_of_characters = len(sentence)
-    return no_of_characters
+    for character in sentence:
+        result = sentence.count(character)
+    #no_of_characters = len(sentence)
+    return result
 
 if __name__ == "__main__":
 

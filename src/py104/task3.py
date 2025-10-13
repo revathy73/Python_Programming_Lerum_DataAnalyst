@@ -4,8 +4,8 @@ from to_do import TODO
 def task3(items: list[int]) -> list[int]:
     result = []
     for item in items:
-        lowercase_letter_counter = items.count(item)
-        if lowercase_letter_counter > 1 and item not in result:
+        number_counter = items.count(item)
+        if number_counter > 1 and item not in result:
             result.append(item)
 
     return result
