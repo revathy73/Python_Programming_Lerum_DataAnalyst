@@ -11,6 +11,5 @@ def task3(items: list[int]) -> list[int]:
     return result
 
 if __name__ == "__main__":
-
     # items = [1, 1, 1, 2, 2, 3]
     print(task3(items = [1, 1, 1, 2, 2, 3]))
