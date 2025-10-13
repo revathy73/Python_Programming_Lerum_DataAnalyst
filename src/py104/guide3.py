@@ -16,6 +16,7 @@ def guide3(items: list[str]) -> int:
     # return (len(items) - 1) * len(items[0])
 
 if __name__ == "__main__":
+
         # countries = ["sweden","norway"]
         print(guide3(items=["sweden", "norway", "finland"]))
 

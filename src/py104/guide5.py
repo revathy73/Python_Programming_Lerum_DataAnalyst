@@ -19,5 +19,6 @@ def guide5() -> list[str]:
 
 if __name__ == "__main__":
 
+
     # ['A','b','C','d'...]
     print(guide5())
