@@ -15,6 +15,5 @@ def task7(items: list[int]) -> int:
 
 if __name__ == "__main__":
 
-
     # items=[10, 2, 5]
     print(task7(items=[10, 2, 5]))
