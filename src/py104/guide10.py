@@ -37,7 +37,6 @@ def guide10(items: list[str]) -> list[str]:
     )
     return list(transformed_list)
     """
-
     # solution 3: Transform a list (Refactoring)
 
     return list(map(

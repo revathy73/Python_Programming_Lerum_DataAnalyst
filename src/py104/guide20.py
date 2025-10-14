@@ -27,7 +27,6 @@ def guide20(a: set[int], b: set[int]) -> set[int]:
     # solution 3: set comprehension (Refactoring)
     return set((number for number in a if number in b))
 
-
     # solution 3: type casting from  List
     #result = [number for number in a if number in b]
     #return set(result)
