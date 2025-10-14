@@ -24,6 +24,7 @@ def guide11(items: list[int]) -> list[int]:
     # solution 2: list comprehension
     result = [number * 3 if number % 11 == 0 else number for number in items]
     return result
+
     # solution 2: list comprehension(refactoring)
     return [number * 3 if number % 11 == 0 else number for number in items]
 
