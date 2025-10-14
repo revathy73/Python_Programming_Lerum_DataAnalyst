@@ -12,10 +12,6 @@ if __name__ == "__main__":
 
     sentence4 = "This is \ngoing in a\n new line"
     print(sentence4)
-
-
-
-
     
     sentence = "SWEDEN"
 
@@ -37,8 +33,6 @@ if __name__ == "__main__":
     print(f"The last letter index is {index_of_last_letter}")
     print(f"The last letter is {last_letter_identify}")
 
-
- 
     # Syntax Rule #1: Var names can contain letter, numbers and underscores
     name = "Revathy"
     country = "India"
@@ -80,9 +74,8 @@ if __name__ == "__main__":
     lt = 0.8923
     latitude = 0.8923
 
-    # x = 30 insted of age =30
+    # x = 30 instead of age = 30
 
-  
     # Variable names are case sensitive
     # Parts of a variable creation
     
@@ -113,17 +106,13 @@ if __name__ == "__main__":
     
     name = input("> what is your name?")
     print("Your name is ---> " + name)
-    
-    
-   
-
+       
     sentence = "python"
     print(f"{sentence[-5:-1]}")
 
     sentence = "python"
     print(f"{sentence[-6:]}")
-     """
-
+   
     sentence = "AaaBbbCccDdd"
     #print(f"{sentence[::1]}")
     #print(f"{sentence[::2]}")
@@ -131,10 +120,57 @@ if __name__ == "__main__":
 
     #print(f"{sentence[-6::2]}")
     #print(f"{sentence[-3:]}")
-
-
+    
     print(f"{sentence[1::2]}")
     print(f"The Lenghth is : {len(sentence)}")
+    
+    new_sentence = "I want to watch the movie \"Avengers\""
+    print(new_sentence)
+
+    new_sentence_2 = 'I want to watch the movie \"Avengers\"'
+    print(new_sentence_2)
+
+    sentence4 = "This is \ngoing in a\n new line"
+    print(sentence4)
+    
+    sentence = "SWEDEN"
+
+    first_letter = sentence[0]
+    second_letter = sentence[1]
+    last_letter = sentence[-1]
+    last_second_letter = sentence[-2]
+    print(f"The first letter is {first_letter}")
+    print(f"The second letter is {second_letter}")
+    print(f"The last_letter is {last_letter}")
+    print(f"The last_second_letter is {last_second_letter}")
+
+    first3_letters = sentence[0:3]
+    length_of_the_string = len(sentence)
+    index_of_last_letter = len(sentence) - 1
+    last_letter_identify = sentence[index_of_last_letter]
+
+    print(f"The first3_letters is {first3_letters}")
+    print(f"The length_of_the_string is {length_of_the_string}")
+    print(f"The index_of_last_letter is {index_of_last_letter}")
+    print(f"The index_of_last_letter is {index_of_last_letter}")
+
+    name = input("> what is your name?")
+    print("Your name is ---> " + name)
+    """
+    sentence = "AaaBbbCccDdd"
+    print(f"{sentence[::1]}")
+
+    print(f"{sentence[-6::2]}")
+    print(f"{sentence[-3:]}")
+
+    print(f"{sentence[1::2]}")
+
+    first3_letters = sentence[0:3]
+    print(f"The first3_letters is {first3_letters}")
+
+
+
+
 
 
 
