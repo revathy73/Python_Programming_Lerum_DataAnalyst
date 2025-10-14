@@ -2,6 +2,20 @@ from to_do import TODO
 
 
 def task6(sentence: str) -> str:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    result = ""
+    for index,item in enumerate(sentence):
+
+        if index % 2 == 0:
+            result += item.upper()
+        else:
+            result += item
+
+    return result
+
+if __name__ == "__main__":
+
+    # sentence = "I like Gothenburg"
+    print(task6(sentence = "I like Gothenburg"))
+
+
