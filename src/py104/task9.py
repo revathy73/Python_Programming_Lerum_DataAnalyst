@@ -27,17 +27,9 @@ def task9(items: list[int]) -> list[int]:
 
     return result
     """
-
     # solution 3: list comprehension
-    result = [items[index] * items[index] if items[index] == items[0] else items[index] * items[index - 1]  for index,item in enumerate(items)]
+    result = [items[index] * items[index] if items[index] == items[0] else items[index] * items[index - 1] for index,item in enumerate(items)]
     return result
-
-    """
-    # solution 4: Transform a list
-    result = map(lambda item: items[0] * items[0] if items[0] == items[0] else items[1] * items[index - 1],enumerate(items))
-    return list(result)
-    """
-
 
 if __name__ == "__main__":
 
