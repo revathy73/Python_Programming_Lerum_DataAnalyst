@@ -6,7 +6,7 @@ def task13(sells: list[int]) -> str:
     #days = ["Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     result = ""
     highest_value = sells[0]
-    value = []
+    value = 0
 
     for index,sell in enumerate(sells):
         if sell > highest_value:
