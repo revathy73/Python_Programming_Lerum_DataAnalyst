@@ -2,14 +2,18 @@ from to_do import TODO
 
 
 def task12(guests: list[str], condition: str) -> list[str]:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    result = []
+    for name in guests:
+        if name[-2:] == condition:
+            result.append(name)
+
+    return result
 
 
 if __name__ == "__main__":
     # Change the situation to either "-V", "-A", or "-K" to test your code under different situation
-    situation = "-V"
+    situation = "-A"
     guest_list = [
         "Stéphanie-A",
         "Edmée-K",

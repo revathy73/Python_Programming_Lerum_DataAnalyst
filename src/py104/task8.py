@@ -4,37 +4,20 @@ from to_do import TODO
 def task8(items: list[int]) -> list[int]:
 
     result = []
-    value = items[0]
-
-    for index,item in enumerate(items):
-        if item > value:
-            value = item
-            result.append(value)
-            items.remove(item)
-            while value
-
-    return result
-
-    """                                     
-    result = []
-    value = items[0]
-    for index,item in enumerate(items):
-        if value > item:
-           result.append(value)
-           value = item
-           items.remove(value)
-        elif items[1] > items[index]:
-            result.append(items[1])
-        elif items[2] > items[index]:
-            result.append(items[2])
-        else:
-            result.append(items[3])
+    highest_value = items[0]
+    while len(result) < 3:
+        for index,item in enumerate(items):
+            if item > highest_value:
+                value = item
+                if index[0] 
+                result.append(highest_value)
+                items.remove(item)
+            item += 1
 
     return result
-    """
 
 
 if __name__ == "__main__":
 
-    # items = [60, 9, 7, 10]
+    # items = [60, 9, 70, 10] ---> [10, 60, 70]
     print(task8(items = [60, 9, 70, 10]))
