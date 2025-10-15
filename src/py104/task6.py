@@ -5,7 +5,6 @@ def task6(sentence: str) -> str:
 
     result = ""
     for index,item in enumerate(sentence):
-
         if index % 2 == 0:
             result += item.upper()
         else:

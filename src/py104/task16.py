@@ -2,10 +2,13 @@ from to_do import TODO
 
 
 def task16(customers: list[str]) -> list[str]:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
 
+    result = []
+    for customer in customers:
+        if customer not in result:
+            result.append(customer)
+
+    return result
 
 if __name__ == "__main__":
     customer_list = [
