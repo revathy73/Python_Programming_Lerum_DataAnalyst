@@ -6,7 +6,7 @@ def guide5(capital: str) -> bool:
     # Input capital
     # If the capital is stockholm
          # set the result to be True
-    # else entered other capitalof the country
+    # else entered other capital of the country
          # set the result to be false
     # return the result
 
