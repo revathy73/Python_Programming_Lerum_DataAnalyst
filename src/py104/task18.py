@@ -2,9 +2,25 @@ from to_do import TODO
 
 
 def task18(customers: list[str]) -> list[str]:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    """
+    product = []
+    value = str(customers)
+    result = value.split("@",".")
+    if result not in product:
+        product.append(result)
+    return list(product)
+   """
+
+    result = []
+    for customer in customers:
+        (username,domain) = customer.split("@")
+        #separate_username_domain.split(".")
+        (product,domain) = domain.split(".",1)
+        if product not in result:
+            result.append(product)
+
+    return result
 
 
 if __name__ == "__main__":
