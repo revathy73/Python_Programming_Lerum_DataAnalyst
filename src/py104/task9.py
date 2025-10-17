@@ -2,17 +2,17 @@ from to_do import TODO
 
 
 def task9(items: list[int]) -> list[int]:
-    """
-    if len(items) == []:   # if not items: return []
+
+    if not items:      #if len(items) == []:
         return []
 
     result = []
     for index,item in enumerate(items):
-        if items[index] == items[0]:
-            result.append(items[index] * items[index])
+        if index == 0:
+            result.append(item * item)
 
         else:
-            result.append(items[index] * items[index - 1])
+            result.append(item * items[index - 1])
 
     return result
 
@@ -30,6 +30,7 @@ def task9(items: list[int]) -> list[int]:
     # solution 3: list comprehension
     result = [items[index] * items[index] if items[index] == items[0] else items[index] * items[index - 1] for index,item in enumerate(items)]
     return result
+     """
 
 if __name__ == "__main__":
 
