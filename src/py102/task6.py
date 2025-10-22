@@ -3,7 +3,7 @@ from to_do import TODO
 
 def task6(base1: float, base2: float, height: float) -> float:
     # Input base1 ,base2 and height for trapezoid
-    # Calculate the are of trapezoid
+    # Calculate the area of trapezoid
 
     result = (base1 + base2 ) * height * 0.5
     return result
