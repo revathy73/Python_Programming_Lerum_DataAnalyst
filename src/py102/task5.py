@@ -2,9 +2,12 @@ from to_do import TODO
 
 
 def task5(value_for_a: int, value_for_b: int) -> tuple[int, int]:
-    a = value_for_b
-    b = value_for_a
+    a = value_for_a
+    b = value_for_b
 
+    temp = a
+    a = b
+    b = temp
     # Do not erase or change the below statement
     return a, b
 
