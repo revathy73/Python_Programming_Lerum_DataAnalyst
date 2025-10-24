@@ -1,5 +1,3 @@
-from idlelib.debugger_r import restart_subprocess_debugger
-
 from to_do import TODO
 
 
