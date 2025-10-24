@@ -1,4 +1,4 @@
-from to_do import TODO
+ from to_do import TODO
 
 
 def guide20(sentence: str, character: str) -> int:
