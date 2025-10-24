@@ -2,16 +2,17 @@ from to_do import TODO
 
 
 def guide6(age: int) -> str:
+
     """
     if(age < 2):
         result = "infant"
     elif(age < 5):
         result = "toddler"
-    elif(age < 12):
+    elif(age < 13):
         result = "child"
-    elif(age < 19):
+    elif(age < 20):
         result = "teen"
-    elif(age < 39):
+    elif(age < 40):
         result = "adult"
     elif(age < 60):
         result = "middle adult"
@@ -19,7 +20,6 @@ def guide6(age: int) -> str:
         result = "senior adult"
     return result
     """
-
     if age in range(0, 2):
         return "infant"
     elif age in range(2, 5):
@@ -34,6 +34,7 @@ def guide6(age: int) -> str:
         return "middle adult"
     else:
         return "senior adult"
+
 
 if __name__ == "__main__":
 

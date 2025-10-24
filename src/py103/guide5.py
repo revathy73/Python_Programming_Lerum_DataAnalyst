@@ -29,7 +29,7 @@ if __name__ == "__main__":
     # capital = Stockholm ---> True
     print(guide5(capital = "Stockholm"))
 
-    # capital = Rome ---> True
+    # capital = Rome ---> False
     print(guide5(capital = "copenhagen"))
 
     # capital = StoCkHoLM ---> True
@@ -40,3 +40,4 @@ if __name__ == "__main__":
 
     # capital = STOCKHOLM ---> True
     print(guide5(capital="STOCKHOLM"))
+
