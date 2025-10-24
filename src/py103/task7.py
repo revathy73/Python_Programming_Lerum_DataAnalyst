@@ -1,5 +1,3 @@
-from ctypes import HRESULT
-
 from to_do import TODO
 
 
