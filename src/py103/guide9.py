@@ -49,8 +49,6 @@ if __name__ == "__main__":
     
     return len(email) > 0 and "@" in email and ".se" in email[-3:]   
        
-    """
-
     is_not_empty = len(email) > 0
     contains_at_sign = "@" in email
     has_ending = ".se" in email[-3:]
@@ -77,3 +75,5 @@ if __name__ == "__main__":
         return False
 
     return
+    
+    """
