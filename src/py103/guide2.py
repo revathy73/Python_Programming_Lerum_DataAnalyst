@@ -10,7 +10,7 @@ def guide2(month: str) -> bool:
 
      return result
 
-     # return month.lower == "november"
+     # return month.lower() == "november"
 
      #return month.upper() == "NOVEMBER"
 
@@ -35,3 +35,5 @@ if __name__ == "__main__":
 
      # month ="NoVemBeR"
      print(guide2(month="NoVemBeR"))
+
+
