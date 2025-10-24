@@ -1,4 +1,4 @@
- from to_do import TODO
+from to_do import TODO
 
 
 def task3(number: int) -> int:
@@ -8,7 +8,6 @@ def task3(number: int) -> int:
         result *= integer
 
     return result
-
 
 
 if __name__ == "__main__":
