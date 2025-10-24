@@ -9,6 +9,8 @@ def task3(number: int) -> int:
 
     return result
 
+
+
 if __name__ == "__main__":
 
     # number = 3
