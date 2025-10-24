@@ -30,6 +30,5 @@ def guide10(a: int, b: int, c: int) -> bool:
     # Another Method :: 3
     
     return condition_1 and condition_2 and condition_3
-        
-        
+     
     """

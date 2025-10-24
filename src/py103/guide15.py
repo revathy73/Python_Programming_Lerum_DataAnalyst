@@ -3,7 +3,7 @@ from to_do import TODO
 
 def guide15(a: int, b: int) -> int:
 
-    if a>= b:
+    if a >= b:
         return -1
 
     result = 1

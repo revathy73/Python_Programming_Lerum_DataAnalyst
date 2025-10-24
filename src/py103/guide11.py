@@ -20,6 +20,6 @@ def guide11(a: int, b: int, c: int) -> str:
           return "isosceles"   
      else:
          return "scalene" 
-         
+                  
      """
 
