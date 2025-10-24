@@ -3,7 +3,7 @@ from to_do import TODO
 
 def guide6(firstname: str, lastname: str) -> str:
 
-    # Input for fistname and lastname
+    # Input for firstname and lastname
     # Concatenate the string in the desire sentence
     result = "Hello " +firstname+ " " +lastname+ ". Welcome to programming"
     return result

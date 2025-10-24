@@ -3,10 +3,7 @@ from to_do import TODO
 
 def guide7(month: int) -> str:
 
-    if month > 12:
-        return "error"
-
-    if month < 1:
+    if (month < 1 or month > 12):
         return "error"
 
     if month in range(3, 6):
@@ -18,10 +15,22 @@ def guide7(month: int) -> str:
     else:
         return "winter"
 
+    """
+    if (month < 1 or month > 12):
+        return "error"
+
+    if month in range(3, 6):
+        return "spring"
+    elif month in range(6, 9):
+        return "summer"
+    elif month in range(9, 12):
+        return "fall"
+    else:
+        return "winter"
+    """
 
 
 if __name__ == "__main__":
-
 
        # month = 4
        print(guide7(month = 4))

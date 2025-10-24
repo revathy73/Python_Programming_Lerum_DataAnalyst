@@ -23,26 +23,25 @@ def guide8(day: int) -> str:
     return result
     """
 
-
+    if (day < 1 or day > 7):
+        return "error"
 
     if day == 1:
-        return "monday"
+        result = "monday"
     elif day == 2:
-         return "tuesday"
+        result = "tuesday"
     elif day == 3:
-         return "wednesday"
+        result = "wednesday"
     elif day == 4:
-         return "thursday"
+        result = "thursday"
     elif day == 5:
-         return "friday"
+        result = "friday"
     elif day == 6:
-         return "saturday"
-    elif day == 7:
-         return "sunday"
+        result = "saturday"
     else:
-         return "error"
+        result = "sunday"
 
-
+    return result
 
 
 if __name__ == "__main__":
