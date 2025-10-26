@@ -9,7 +9,6 @@ def guide16(sentence: str) -> str:
             result += letter
             # result = result + letter
 
-
     return result
 
 if __name__ == "__main__":
