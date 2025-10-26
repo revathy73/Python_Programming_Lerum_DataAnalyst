@@ -270,8 +270,7 @@ if __name__ == "__main__":
     number3 = 678
     result3 = number3 % 10
     print(result3)
-    """
-
+    
     day = 1
     if day == 1:
         print("MONDAY")
@@ -279,3 +278,23 @@ if __name__ == "__main__":
         print(day)
     else:
         print(day)
+    """
+    # guide : 9
+
+    email = maria@gmail.com
+    is_not_empty = len(email) > 0
+    contains_at_sign = "@" in email
+    has_correct_ending = ".se" in email[-3:]
+
+    if is_not_empty and contains_at_sign and has_correct_ending:
+        return True
+    else:
+        return False
+
+
+
+    return is_not_empty and contains_at_sign and has_correct_ending
+    return len(email) > 0 and contains_at_sign and has_correct_ending
+
+
+
