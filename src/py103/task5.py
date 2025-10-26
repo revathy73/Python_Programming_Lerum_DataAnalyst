@@ -3,9 +3,10 @@ from to_do import TODO
 
 def task5(sentence: str) -> int:
 
+    result = 0
     for character in sentence:
-        result = sentence.count(character)
-        #no_of_characters = len(sentence)
+        result += 1
+    #result = len(sentence)
     return result
 
 if __name__ == "__main__":
