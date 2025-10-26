@@ -17,7 +17,7 @@ def guide3(items: list[str]) -> int:
 
 if __name__ == "__main__":
 
-        # countries = ["sweden","norway"]
+        # countries = ["sweden","norway"]  ---> 6 * 3 = 18
         print(guide3(items=["sweden", "norway", "finland"]))
 
         # countries = [] ---> -1
