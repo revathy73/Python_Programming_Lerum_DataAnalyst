@@ -19,7 +19,6 @@ def task10(password: str) -> bool:
     )
 
 
-
 if __name__ == "__main__":
 
     # password = peter#son23
