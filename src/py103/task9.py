@@ -1,5 +1,3 @@
-from calendar import error
-
 from to_do import TODO
 
 
