@@ -3,7 +3,7 @@ from to_do import TODO
 
 def guide20(a: set[int], b: set[int]) -> set[int]:
     """
-    # solution 1: for loop using list and type acsting
+    # solution 1: for loop using list and type casting
     result = []
     for number in a:
         if number in b:

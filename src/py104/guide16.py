@@ -19,7 +19,7 @@ def guide16(items: tuple[str]) -> list[str]:
     # solution 3: List comprehension (Refactoring)
     return [name for name in items if name[0].lower() == 'h']
 
-    # solution 3: Transform a list
+    # solution 3: filter a list
     result = filter(lambda name: name[0].lower() == 'h', items)
     return list(result)
     """

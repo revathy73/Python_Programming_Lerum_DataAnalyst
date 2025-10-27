@@ -22,7 +22,7 @@ def guide17(items: tuple[str]) -> list[str]:
     programming_extension = ["kt", "py", "yml", "json", "java"]
     return [file for file in items if file.split(".")[1] in programming_extension]
 
-    # solution 3: Transform a list
+    # solution 3: filter a list
     programming_extension = ["kt", "py", "yml", "json", "java"]
     result = filter(lambda file: file.split(".")[1] in programming_extension, items)
     return list(result)
