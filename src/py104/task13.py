@@ -4,6 +4,7 @@ from to_do import TODO
 def task13(sells: list[int]) -> str:
 
     #days = ["Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
     result = ""
     highest_value = sells[0]
     value = 0
