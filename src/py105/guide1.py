@@ -2,7 +2,8 @@ from to_do import TODO
 
 
 def guide1(a: int, b: int) -> dict[int, int]:
-
+    """
+    # solution Method: 1
     if a >= b:
         return {}
 
@@ -14,6 +15,35 @@ def guide1(a: int, b: int) -> dict[int, int]:
             result[number] = number * 3
 
     return result
+
+    # solution method: 2 (ternary operator)
+    if a >= b:
+        return {}
+
+    result = {}
+    for number in range(a, b + 1):
+        result[number] = number * 2 if number % 2 == 0 else number * 3
+
+    return result
+
+    # Dictionary comprehension
+    if a >= b:
+        return {}
+
+    result = {}
+    result = {number : number * 2 if number % 2 == 0 else number * 3 for number in range(a, b+1)}
+    return  result
+    """
+    if a >= b:
+        return {}
+
+    return {number : number * 2 if number % 2 == 0 else number * 3 for number in range(a, b + 1)}
+
+
+
+
+
+
 
 if __name__ == "__main__":
 
