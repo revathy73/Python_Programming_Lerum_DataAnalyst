@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-
+    """
     # create a dictionary
     # Method 1:
     swedish_tax_agency = {1234: "Bob", 5678: "Jane", 91011: "John"}
@@ -41,9 +41,38 @@ if __name__ == "__main__":
     del tax_office_3[456]
     print(tax_office_3)
 
-    # add:
+    # add: using the accessor operator []
     tax_office_3[999] = "LOla"
     print(tax_office_3)
+
+    # Update the function :
+    tax_office = dict()
+    print(tax_office)
+    tax_office_3.update({999:"Pat"})
+    print(tax_office_3)
+    
+    # How to access values in the dictionary:
+    names = ["Jane", "Bob", "John"]
+    print(names[2])
+    
+    tax_office_111 = {111: "Jane", 124: "Diva", 145: "Ury"}
+    print(tax_office_111[124])
+
+    print(tax_office_111.get(125,"N/A"))
+    """
+
+    tax_office_123 = {"Sweden": "Europe","Panama":"America","Russia":"Asia"}
+    print(tax_office_123["Sweden"])
+
+    print(tax_office_123.get("Panama"))
+
+
+
+
+
+
+
+
 
 
 
