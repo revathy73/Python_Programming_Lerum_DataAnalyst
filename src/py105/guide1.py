@@ -39,12 +39,6 @@ def guide1(a: int, b: int) -> dict[int, int]:
 
     return {number : number * 2 if number % 2 == 0 else number * 3 for number in range(a, b + 1)}
 
-
-
-
-
-
-
 if __name__ == "__main__":
 
     # a = 1, b = 3  ---> {1 : 3, 2 : 4, 3 : 9}
@@ -55,3 +49,5 @@ if __name__ == "__main__":
 
     # a = 20 , b = 10  ---> {}
     print(guide1(a = 20 , b = 10 ))
+
+
