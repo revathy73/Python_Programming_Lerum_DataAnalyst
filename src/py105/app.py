@@ -59,12 +59,59 @@ if __name__ == "__main__":
     print(tax_office_111[124])
 
     print(tax_office_111.get(125,"N/A"))
-    """
-
+   
     tax_office_123 = {"Sweden": "Europe","Panama":"America","Russia":"Asia"}
     print(tax_office_123["Sweden"])
 
     print(tax_office_123.get("Panama"))
+    
+    # Looping over the entries in List
+    capitals = ["Panama", "Stockholm", "Madrid"]
+    for capital in capitals:
+        print(capital)
+    """
+    # Looping over the entries in Dict?
+    coding = {"kotlin":"kt","python":"py","Java":"java"}
+    for entry in coding:
+        print(entry)
+
+    # Method 1: No unpacking
+    # The element at position 0 is always the key
+    # The element at position 1 is always the value
+    for entry in coding.items():
+        print(entry)
+        print(f"languages are '{entry[0]}',the extension is '{entry[1]}'")
+    # Method 2: Yes unpacking
+    # The first variable is always the key
+    # The first variable is always the value
+    # You can call the variable whatever you want
+    for language,extension in coding.items():
+        print(f"For the language '{language}' the extension is '{extension}'")
+
+    entries = coding.items()
+    print(entries)
+    print(type(entries))
+
+    entries = list(coding.items())
+    print(entries)
+
+    coding["javascript"] = "js"
+    print(entries)
+
+    for language,extension in entries:
+        print(f"{language} ---> {extension}")
+
+    entries = list(coding.items())
+    # ---> want to prevent from updating in dictionary change to list
+    print(entries)
+
+    coding["wcs"] = "c#" # It is not updated here bcoz, changed to list
+    print(entries)
+
+
+
+
+
 
 
 
