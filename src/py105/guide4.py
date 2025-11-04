@@ -3,7 +3,7 @@ from to_do import TODO
 
 def guide4(supermarket: dict[str, float], ingredients: list[str]) -> float:
 
-    result = 0
+    result = 0.0
     for item in ingredients:
         cost = supermarket.get(item, 0.0)
         result += cost
