@@ -16,3 +16,11 @@ if __name__ == "__main__":
 
     # birthdays = {"Ana":1,"Anja":1,"Mary":5}
     print(guide6(birthdays = {"Ana":1,"Anja":1,"Mary":5} , letter = "A", month = 1))
+
+    # birthdays = {"Ana":1,"Anja":1,"Mary":5}
+    print(guide6(birthdays={"Ana": 1, "Anja": 1, "Mary": 5}, letter="a", month=5))
+
+    # birthdays = {"Ana":1,"Anja":1,"Mary":5}
+    print(guide6(birthdays={"Ana": 1, "Anja": 1, "Mary": 5}, letter="M", month=1))
+
+
