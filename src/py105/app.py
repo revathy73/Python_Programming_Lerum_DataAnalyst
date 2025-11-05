@@ -69,7 +69,7 @@ if __name__ == "__main__":
     capitals = ["Panama", "Stockholm", "Madrid"]
     for capital in capitals:
         print(capital)
-    """
+    
     # Looping over the entries in Dict?
     coding = {"kotlin":"kt","python":"py","Java":"java"}
     for entry in coding:
@@ -107,6 +107,36 @@ if __name__ == "__main__":
 
     coding["wcs"] = "c#" # It is not updated here bcoz, changed to list
     print(entries)
+    
+    initials = {"A":"Adam","B":"Bob","C":"Carol"}
+    # Access the collection of keys
+    keys_of_dict = initials.keys()
+    print(keys_of_dict)
+
+    initials["H"] = "Humberto"
+    print(keys_of_dict)
+    print(type(keys_of_dict))
+    """
+    coding = {"kotlin":"kt","python":"py","Java":"java"}
+    keys_of_code = list(coding.keys())
+    coding["c#"] = "wcp" # ---> we cant update here directly bcoz,it is changed list
+    print(keys_of_code)
+
+    # Looping over the keys: using a variable
+    keys = coding.keys()
+    for key in keys:
+        print(key)
+
+    # looping 2 # Inline
+    for key in coding.keys():
+        print(key)
+
+
+
+
+
+
+
 
 
 
