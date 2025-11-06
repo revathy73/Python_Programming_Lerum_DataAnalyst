@@ -116,7 +116,7 @@ if __name__ == "__main__":
     initials["H"] = "Humberto"
     print(keys_of_dict)
     print(type(keys_of_dict))
-    """
+    
     coding = {"kotlin":"kt","python":"py","Java":"java"}
     keys_of_code = list(coding.keys())
     coding["c#"] = "wcp" # ---> we cant update here directly bcoz,it is changed list
@@ -130,6 +130,59 @@ if __name__ == "__main__":
     # looping 2 # Inline
     for key in coding.keys():
         print(key)
+    
+    grade_book = {"Jane":5.0,"Hugo":4.5,"Helen":4.0}
+    values_of_dict = (grade_book.values())
+    print(values_of_dict)
+    print(type(values_of_dict))
+    grade_book["Ana"] = 3.5
+    print(values_of_dict)
+
+    # Looping 1: as a variable
+    grades = grade_book.values()
+    for grade in grades:
+        print(grade)
+
+    # looping 2: Inline
+    for grade in grade_book.values():
+        print(grade)
+           
+    # Filter Method Using delete
+    car = {"year":1969,"brand":"Ford","model":"Mustang","color":"Red"}
+    print(car)
+
+    # method 1: pop()
+    # you need to provide the key of the entity to be removed
+    # It provides the value of the removed entity
+    deleted_color = car.pop("color")
+    print(deleted_color)
+    print(car)
+
+    # method 2: popItem()
+    last_item = car.popitem()
+    print(f"The deleted entity = {last_item}")
+    print(car)
+
+    # method 3: del keyword
+    del car["brand"]
+    print(car)
+    """
+    # Transformation Method
+    grade_book = {"Ana":3.0,"John":3.5,"Jannet":4.0}
+    print(grade_book)
+
+    # Method 1: [] ---> Accessor operator
+    # you need to provide a key to the accessor operator
+    grade_book["Ana"] = 4.0
+    print(grade_book)
+
+    grade_book["Bob"] = 4.6
+    print(grade_book)
+
+    grade_book["Bob"] = 2.6
+    print(grade_book)
+
+
 
 
 
