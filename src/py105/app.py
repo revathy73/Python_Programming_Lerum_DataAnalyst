@@ -182,6 +182,18 @@ if __name__ == "__main__":
     grade_book["Bob"] = 2.6
     print(grade_book)
 
+    # Method 2: update()
+    grade_book.update({"John" : 4.5})
+    print(grade_book)
+
+    grade_book.update({"Fatima": 4.5})
+    print(grade_book)
+
+    grade_book.update({"Fatima":3.0})
+    print(grade_book)
+
+
+
 
 
 
