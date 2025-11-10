@@ -4,8 +4,9 @@ from to_do import TODO
 def task7(words: list[str]) -> dict[int, str]:
 
     result = {}
-    for index,letter in words():
-
+    for index,word in enumerate(words):
+       # result = result.get(index,word)
+       result[index] = word
 
     return result
 
