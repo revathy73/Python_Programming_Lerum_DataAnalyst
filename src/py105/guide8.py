@@ -4,6 +4,7 @@ from to_do import TODO
 def guide8(hard_drive: dict[str, float]) -> int:
 
     result = 0
+    
     pgm_extensions = ["kt","py","yml","json","java"]
     for file in hard_drive.keys():
         programme, extension = file.split(".")

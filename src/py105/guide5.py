@@ -2,6 +2,7 @@ from to_do import TODO
 
 
 def guide5(universities: dict[str, str]) -> dict[str, str]:
+
     """
     # solution : For loop
     result = {}
