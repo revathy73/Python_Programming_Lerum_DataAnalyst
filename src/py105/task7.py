@@ -2,6 +2,14 @@ from to_do import TODO
 
 
 def task7(words: list[str]) -> dict[int, str]:
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+
+    result = {}
+    for index,letter in words():
+
+
+    return result
+
+if __name__ == "__main__":
+
+    # words = ["I", "love", "Kotlin"]
+    print(task7(words = ["I", "love", "Kotlin"]))
