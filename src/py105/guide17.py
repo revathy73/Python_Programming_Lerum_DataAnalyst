@@ -15,8 +15,8 @@ def guide17(education: dict[str, dict[str, int]]) -> str:
 
 if __name__ == "__main__":
     edu = {
-    "history":{"enrolled":30,"days":3},
-    "programming":{"enrolled":100,"days":5},
-    "physics":{"enrolled":80,"days":2}
-    }
+            "history":{"enrolled":30,"days":3},
+            "programming":{"enrolled":100,"days":5},
+            "physics":{"enrolled":80,"days":2}
+            }
     print(guide17(education=edu))
