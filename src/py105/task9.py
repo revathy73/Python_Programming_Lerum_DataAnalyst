@@ -8,13 +8,14 @@ def task9(grades: dict[str, list[float]]) -> float:
     result = 0.0
     total = 0.0
     no_of_mark = 0
-    for grade in grades.values():
+    for student_name,grade in grades.items():
         for mark in grade:
             total += mark
             no_of_mark += 1
             #no_of_mark = grade.count(mark)
-            #size = len(mark)
+
         result = total / no_of_mark
+    # result = total / (len(grades) * len (grade))
 
     return result
 
