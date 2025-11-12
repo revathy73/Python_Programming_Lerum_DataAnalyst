@@ -28,6 +28,7 @@ def guide9(word: str) -> dict[str, int]:
     result = dict()
     for letter in word:
         result[letter] = result.get(letter, 0) + 1
+
     return result
     """
     # solution 4: count() method
