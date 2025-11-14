@@ -12,10 +12,7 @@ def task9(grades: dict[str, list[float]]) -> float:
         for mark in grade:
             total += mark
             no_of_mark += 1
-            #no_of_mark = grade.count(mark)
-
         result = total / no_of_mark
-    # result = total / (len(grades) * len (grade))
 
     return result
 
@@ -23,4 +20,4 @@ if __name__ == "__main__":
 
     # grades = {"Ana" : [4.0, 4.5, 5.0],"John" : [5.0, 5.0, 3.0],"Lise" :[5.0, 5.0, 5.0]}
     print(task9(grades = {"Ana" : [4.0, 4.5, 5.0],"John" : [5.0, 5.0, 3.0],"Lise" :[5.0, 5.0, 5.0]}))
-
+    #print(task9(grades = {}))
