@@ -40,6 +40,8 @@ def guide18(classroom: list[dict[str, float]]) -> float:
     return result
     """
     # solution 3: List comprehension , sum()
+    if len(classroom) == 0:
+        return 0.0
     total_gpa = [student["gpa"] for student in classroom]
     result = sum(total_gpa) / len(total_gpa) # len(classroom)
     return result
