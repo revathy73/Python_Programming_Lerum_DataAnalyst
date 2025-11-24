@@ -137,7 +137,7 @@ if __name__ == "__main__":
         raise FileNotFoundError(f"The file {user_filename} was not found")
     else:
         print("The file was found")
-    """
+    
     # another method: assert
     # SYNTAX :: assert condition, optional_message
     filenames = ["app.py","run.py","main.py"]
@@ -145,6 +145,29 @@ if __name__ == "__main__":
 
     assert(user_filename in filenames)
     print("The file was found")
+
+    # NULL POINTER EXCEPTION:
+    countries = []
+    print(countries)
+    print(len(countries))
+    print(type(countries))
+    print("-------------")
+    """
+    names = []
+    print(names)
+    print(type(names))
+    #print(names[0])
+    #print(len(names))
+    #print( 3 * none)
+
+    countries1 = ["sweden","Norway", None, "Norway",None]
+
+    if names is None:
+        print("names in None")
+    else:
+        print(f"names is not None and has a length of {len(names)}")
+
+
 
         
 
