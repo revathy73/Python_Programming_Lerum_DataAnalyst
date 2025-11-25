@@ -4,7 +4,7 @@ from to_do import TODO
 def task6(items: list[int]) -> list[int]:
 
     if items is None or len(items) == 0:
-        result = None
+        return []
 
     result = []
     for index,item in enumerate(items):
