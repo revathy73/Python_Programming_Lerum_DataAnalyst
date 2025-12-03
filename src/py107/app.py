@@ -88,7 +88,7 @@ if __name__ == "__main__":
     # 2)pass by name
     #counter_calculator(sentence="Hello to python", letter = "H")
     counter_calculator(letter="H",sentence="welcome to python")
-    """
+    
     # Parameters by default value
     def counter(sentence, letter = "H"):
         print(f"> sentence = {sentence}")
@@ -96,6 +96,32 @@ if __name__ == "__main__":
 
     counter(sentence = "Hello to python", letter= "Z")
     counter(sentence= "Hello to python") # it assume the value
+    """
+    # Passing an arbitrary number of arguments
+    # method 1:
+    def event_greeting(attendees):
+        for attendee in attendees:
+            print(f"Hello {attendee}, welcome to the event")
+
+    attendees = ["Humberto","Mauri","John","Jane"]
+    event_greeting(attendees)
+
+    # method 2:
+    def event_greeting_2(*attendees):
+        for attendee in attendees:
+            print(f"Hello {attendee}, welcome to the event")
+
+    event_greeting_2("Humberto","Mauri","John")
+
+    def event_greetings_3(*event_info,date):
+        print(f"event info = {event_info}")
+
+    event_greetings_3("sweden","10.00",50,date="tuesday")
+    event_greetings_3("sweden","10.00")
+    event_greetings_3("sweden")
+
+
+
 
 
 
