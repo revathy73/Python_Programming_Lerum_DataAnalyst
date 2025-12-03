@@ -77,6 +77,7 @@ if __name__ == "__main__":
     print(output_of_function1)
     print(output_of_function2)
     """
+
     # passing parameters by position
     def counter_calculator(sentence, letter):
         print(f"> Sentence = {sentence}")
@@ -84,6 +85,10 @@ if __name__ == "__main__":
 
     # 1)pass by position
     counter_calculator("Hello to python", "H")
+
+    # 2)pass by name
+    #counter_calculator(sentence="Hello to python", letter = "H")
+    counter_calculator(letter="H",sentence="welcome to python")
 
 
 
