@@ -152,7 +152,7 @@ if __name__ == "__main__":
     print(len(countries))
     print(type(countries))
     print("-------------")
-    """
+   
     names = []
     print(names)
     print(type(names))
@@ -177,8 +177,8 @@ if __name__ == "__main__":
     else:
         print(f"The name is None")
     """   
-    here the order of expression is matter bcoz name is none is checking if it
-    is false it will go to next.
+    #here the order of expression is matter bcoz name is none is checking if it
+    #is false it will go to next.
     """
 
     name1 = None
@@ -189,11 +189,17 @@ if __name__ == "__main__":
         print(f"The name is None")
 
     """   
-       here, the order of expression is matter bcoz len(name1) is checking.we cant find of length of 
-       None so it throws error like(Typeerror: object of type has no len() ) and crashed. then even 
-       not checking second condition bcoz of programm crash.
+       #here, the order of expression is matter bcoz len(name1) is checking.we cant find of length of
+       #None so it throws error like(Typeerror: object of type has no len() ) and crashed. then even
+       #not checking second condition bcoz of programm crash.
     """
+     """
 
+    foo = {1: "Hello",2: "Hej",3: "Hola"}
+    result = list(foo.items())
+    print(result[2][0])
+    print(result[2][1])
+    print(list(foo))
         
 
 
