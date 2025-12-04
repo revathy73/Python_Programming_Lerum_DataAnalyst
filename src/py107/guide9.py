@@ -1,12 +1,15 @@
-if __name__ == "__main__":
-    sentence = "This has A number Of vowEls"
+def transformer(sentence: str) -> str:
+
     letters_of_interest = ["a", "e", "i", "o", "u"]
     new_string = ""
 
     for letter in sentence:
-        if letter.lower() in letters_of_interest:
-            new_string += "$"
-        else:
-            new_string += letter
+        new_string += "$" if letter.lower() in letters_of_interest else letter
 
-    print(new_string)
+    return new_string
+
+
+if __name__ == "__main__":
+
+    print(transformer(sentence = "The country am living is sweden"))
+    print(transformer(sentence="Thr r n vwls n hr"))
