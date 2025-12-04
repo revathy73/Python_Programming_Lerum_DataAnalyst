@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
     counter(sentence = "Hello to python", letter= "Z")
     counter(sentence= "Hello to python") # it assume the value
-    """
+    
     # Passing an arbitrary number of arguments
     # method 1:
     def event_greeting(attendees):
@@ -119,7 +119,113 @@ if __name__ == "__main__":
     event_greetings_3("sweden","10.00",50,date="tuesday")
     event_greetings_3("sweden","10.00")
     event_greetings_3("sweden")
+   
+    # Passing a reference vs value
+    def foo(years):
+        years.append(2000)
+        years.insert(0, 5555)
 
+    my_years = [1960, 1961, 1930, 1980, 1945, 1947, 1955]
+    print(my_years)
+
+    foo(list(my_years))
+
+    print(my_years)
+    
+    # Passing a function to a function
+    items = ["Humberto", "henry", "Mauri", "John", "Jane"]
+    def bad_finder_h(names):
+        result = []
+        for name in names:
+            if name[0].lower() == "h":
+                result.append(name)
+
+        return result
+
+    def bad_finder_m(names):
+        result = []
+        for name in names:
+            if name[0].lower() == "m":
+                result.append(name)
+
+        return result
+
+    def bad_finder_j(names):
+        result = []
+        for name in names:
+            if name[0].lower() == "j":
+                result.append(name)
+
+        return result
+
+    print(bad_finder_h(items))
+    print(bad_finder_m(items))
+    print(bad_finder_j(items))
+    
+    def j_name(name):
+        return name[0].lower() == "j"
+
+    def m_name(name):
+        return name[0].lower() == "m"
+
+    def h_name(name):
+        return name[0].lower() == "h"
+
+    def finder(name_finder, names):
+        result = []
+        for name in names:
+            if name_finder(name):
+                result.append(name)
+
+        return result
+
+    print(finder(h_name, items))
+    print(finder(m_name, items))
+    print(finder(j_name, items))
+
+
+    def finder(name_finder, names):
+        result = () #--If i want to do operation in set just change is enough
+        for name in names:
+            if name_finder(name):
+                result.append(name) #-- result.add(name)
+
+        return result
+    """
+    # Indicating types in a function
+
+    def do_something(item: float, element: float) -> dict[str, list[int]]:
+        print(item)
+        print(element)
+
+        return str(item)
+
+    do_something(10.0,10.0)
+
+    # Different way of calling a function
+    def greetings(name: str,course: str):
+        print(f"welcome to {course} ,{name}")
+
+
+    greetings("Humberto","python")
+    greetings(name="Humberto",course="python")
+    greetings(course="python",name="Humberto")
+
+    name = "Humberto"
+    course = "Python"
+    greetings(name,course)
+    greetings(name = name, course= course)
+    greetings(course= course,name= name)
+
+    def student_name() -> str:
+        return "Humberto"
+
+    def course_name() -> str:
+        return "Python"
+
+    greetings(student_name(),course_name())
+    greetings(name = student_name(), course = course_name())
+    greetings(course = course_name(),name = student_name())
 
 
 
