@@ -191,7 +191,7 @@ if __name__ == "__main__":
                 result.append(name) #-- result.add(name)
 
         return result
-    """
+    
     # Indicating types in a function
 
     def do_something(item: float, element: float) -> dict[str, list[int]]:
@@ -226,6 +226,36 @@ if __name__ == "__main__":
     greetings(student_name(),course_name())
     greetings(name = student_name(), course = course_name())
     greetings(course = course_name(),name = student_name())
+    """
+    # Places where i can call a function
+    def welcome():
+        print("Welcome to the education")
+
+    # inside for loop
+    for number in range(1, 11):
+        welcome()
+
+    # inside if-else loop
+    age = 10
+    if age >= 18:
+        print("come next year")
+    else:
+        welcome()
+
+    # inside while loop
+    counter = 0
+    while counter <= 10:
+        welcome()
+        counter += 1
+    # inside another function
+
+    def bye():
+        print("-------- bye-------")
+        welcome()
+        print("--------goodbye----")
+
+    bye()
+
 
 
 
