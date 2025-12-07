@@ -1,4 +1,5 @@
 def indexer(sentence: str) -> list[int]:
+
     positions = []
 
     for index, letter in enumerate(sentence):
