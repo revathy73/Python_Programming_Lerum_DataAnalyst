@@ -1,1 +1,21 @@
-# TODO("Delete this 'TODO' and create your function here")
+def counter(string) -> bool:
+
+    result = True
+    total = 0
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+    for char in string:
+        if char.lower() in alphabet:
+            position = alphabet.index(char.lower()) + 1
+            total += position
+
+    if total % 2 != 0:
+        result = False
+
+    return result
+
+
+if __name__ == "__main__":
+
+    print(counter("alexa"))
+    print(counter("hello"))
