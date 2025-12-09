@@ -1,20 +1,32 @@
-def groceries(supermarket: list[dict[str, Any]]) -> float:
+from typing import Any
 
-    if len(items) == 0:
+def groceries(supermarket : list[dict[str, Any]]) -> float:
+
+    if len(supermarket) == 0:
         return 0.0
 
-    result = 0.0
-    total_price = 0.0
+    #total = 0.0
+    overall_total = 0.0
 
-    for product,details in supermarket.items():
-            how_many = details["quantity"]
-            price = details["price"]
+    for grocery in supermarket:
+        total = grocery["quantity"] * grocery["price"]
+        overall_total += total
 
-        """
-            for price in product.values:
-            total_price = quantity.values * price.values
-            result += total_price
-        
-        """
+    return  overall_total
+
 
 if __name__ == "__main__":
+
+    print(groceries([
+    {
+        "product" : "Milk",
+        "quantity" : 3,
+        "price" : 1.50
+    },
+    {
+        "product" : "Meat",
+        "quantity" : 3,
+        "price" : 2.50
+    }
+    ]))
+

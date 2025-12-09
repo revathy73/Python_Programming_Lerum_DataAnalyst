@@ -1,6 +1,6 @@
 def counter(string) -> bool:
 
-    result = True
+    #result = True
     total = 0
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
@@ -8,11 +8,14 @@ def counter(string) -> bool:
         if char.lower() in alphabet:
             position = alphabet.index(char.lower()) + 1
             total += position
-
-    if total % 2 != 0:
+    """
+    if total % 2 == 0:
+        result = True
+    else:
         result = False
+    """
 
-    return result
+    return total % 2 == 0
 
 
 if __name__ == "__main__":
