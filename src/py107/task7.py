@@ -1,24 +1,29 @@
 def censorship(sentence : str) -> str :
 
-    if sentence == "":
-        return ""
+    result = []
 
-    result = ""
-    text_components = sentence.split(" ")
+    for text in sentence.split():
+        word = ""
+        special_char = ""
+        for letter in text:
+            if letter.isalnum():
+                word += letter
+            else:
+                special_char += letter
+        if len(word) > 4:
+            word = "*" * len(word)
 
-    for index,text in enumerate(text_components):
-        if len(text) > 4:
-            for letter in text:
-                if letter in (',', ';', '.', ':'):
-                    result += letter
-                elif letter != "*":
-                    result += "*"
-            continue
-        else:
-            result += text + " "
+        result.append(word + special_char)
 
-    return result
+    return " ".join(result)
 
 if __name__ == "__main__":
-    print(censorship(sentence = "I live in Sweden"))
+
+    #print(censorship(sentence="wrds."))  # word.
+    print(censorship(sentence="wor.ds"))  # *****.
+    print(censorship(sentence = "Avoid saying bad words"))
+    print(censorship(sentence="I live in Sweden"))
+
+
+
 

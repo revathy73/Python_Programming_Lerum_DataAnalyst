@@ -8,12 +8,6 @@ def counter(string) -> bool:
         if char.lower() in alphabet:
             position = alphabet.index(char.lower()) + 1
             total += position
-    """
-    if total % 2 == 0:
-        result = True
-    else:
-        result = False
-    """
 
     return total % 2 == 0
 
