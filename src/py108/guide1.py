@@ -2,98 +2,90 @@ import math
 
 class Course:
     def __init__(self,name,grade,elective,department):
+
         self.name = name
         self.grade = grade
         self.elective = elective
         self.department = department
 
+
 class Learner:
+
     School = "LTH"
-    # This is a perfect example of class and it is a template of a class
-    def __init__(self,firstname,lastname,learnerId ,department,major):
+
+    def __init__(self,firstname,lastname,learner_id,department,major):
         self.firstname = firstname
         self.lastname = lastname
-        self.learnerId  = learnerId
+        self.learnerId = learner_id
         self.department = department
         self.major = major
-        self.__courses = []
+        self.courses = []
 
     def details(self):
-        print("-------- Learner Details----------")
+        print("--- Learner Details ---")
         print(f"Name: {self.firstname} {self.lastname}")
         print(f"ID: {self.learnerId}")
         print(f"Department: {self.department}")
         print(f"Major: {self.major}")
 
     def gpa(self) -> float:
-        if len(self.__courses) == 0:
+
+        if len(self.courses) == 0:
             return 0.0
 
         result = 0.0
-        for course in self.__courses:
+        for course in self.courses:
             result += course.grade
 
-        return result / len(self.__courses)
+        return result / len(self.courses)
 
-    def highestCourse(self) -> dict[str, float]:
-        if len(self.__courses) == 0:
-            return 0.0
+    def highestCourse(self) -> dict[str,float]:
 
-        result = {}
-        highest_course_grade = 0.0
-        highest_course_name = ""
-        for course in self.__courses:
-            if course.grade > highest_course_grade:
-                highest_course_grade = course.grade
-                highest_course_name = course.name
-                result[highest_course_name] = highest_course_grade
+        highest_course = ""
+        highest_grade = 0.0
 
-        return result
-        """
-        max_of_grades = max(self.grades.values())
-        return max_of_grades
-        """
+        for course in self.courses:
+            if course.grade > highest_grade:
+                highest_grade = course.grade
+                highest_course = course.name
 
-    def lowestCourse(self) -> dict[str, float]:
-        if len(self.__courses) == 0:
-            return 0.0
+        return {highest_course:highest_grade}
 
-        #result = {}
-        lowest_course_name = ""
-        lowest_course_grade = math.inf
+    def lowestCourse(self) -> dict[str,float]:
 
-        for course in self.__courses:
-            if course.grade < lowest_course_grade:
-                lowest_course_grade = course.grade
-                lowest_course_name = course.name
-                #result[lowest_course_name] = lowest_course_grade
+        lowest_course = ""
+        lowest_grade = math.inf
 
-        return {lowest_course_name : lowest_course_grade} # return result
+        for course in self.courses:
+            if course.grade < lowest_grade:
+                lowest_grade = course.grade
+                lowest_course = course.name
 
-    def addCourse(self, course: Course):
-        self.__courses.append(course)
+        return {lowest_course:lowest_grade}
+
+    def addCourse(self,course: Course):
+        self.courses.append(course)
 
     def grades(self) -> list[float]:
-        result = []
-        for course in self.__courses:
-            result.append(course.grade)
 
+        result = []
+        for course in self.courses:
+            result.append(course.grade)
         return result
 
-
 if __name__ == "__main__":
-    # This is a creating instances of Learner
+        # This is a creating instances of Learner
     john = Learner(
             "john",
             "smith",
             1818,
             "Engineering",
             "computer science",
-            )
+        )
     john.details()
 
-    programming = Course("Programming 1",5.0,True,"Engineering")
-    autocad = Course("Autocad 1",4.5,False,"Engineering")
+    programming = Course("Programming 1", 5.0, True, "Engineering")
+    autocad = Course("Autocad 1", 4.5, False, "Engineering")
 
     john.addCourse(programming)
     john.addCourse(autocad)
@@ -104,6 +96,5 @@ if __name__ == "__main__":
     print(john.highestCourse())
     print(john.lowestCourse())
 
-    """
-    john.addGrade({"Python": 4.0})  
-    """
+
+
