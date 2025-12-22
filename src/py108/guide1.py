@@ -10,10 +10,10 @@ class Course:
 class Learner:
     School = "LTH"
     # This is a perfect example of class and it is a template of a class
-    def __init__(self,firstname,lastname,learner_id,department,major):
+    def __init__(self,firstname,lastname,learnerId ,department,major):
         self.firstname = firstname
         self.lastname = lastname
-        self.learnerId = learner_id
+        self.learnerId  = learnerId
         self.department = department
         self.major = major
         self.__courses = []
