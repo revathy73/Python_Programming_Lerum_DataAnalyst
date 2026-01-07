@@ -1,8 +1,9 @@
 {
+    "showSimplifiedView": true,
 	"sourcePath": "src",
 	"chapters": [
 		{
-			"name": "py101",
+			"path": "py101",
 			"presentation": {
 				"title": "Module 101"
 			},
@@ -86,7 +87,7 @@
 			]
 		},
 		{
-			"name": "py102",
+			"path": "py102",
 			"presentation": {
 				"title": "Module 102"
 			},
@@ -206,7 +207,7 @@
 			]
 		},
 		{
-			"name": "py103",
+			"path": "py103",
 			"presentation": {
 				"title": "Module 103"
 			},
@@ -334,7 +335,7 @@
 			]
 		},
 		{
-			"name": "py104",
+			"path": "py104",
 			"presentation": {
 				"title": "Module 104"
 			},
@@ -502,7 +503,7 @@
 			]
 		},
 		{
-			"name": "py105",
+			"path": "py105",
 			"presentation": {
 				"title": "Module 105"
 			},
@@ -650,7 +651,7 @@
 			]
 		},
 		{
-			"name": "py106",
+			"path": "py106",
 			"presentation": {
 				"title": "Module 106"
 			},
@@ -738,7 +739,7 @@
 			]
 		},
 		{
-			"name": "py107",
+			"path": "py107",
 			"presentation": {
 				"title": "Module 107"
 			},
@@ -822,7 +823,7 @@
 			]
 		},
 		{
-			"name": "py108",
+			"path": "py108",
 			"presentation": {
 				"title": "Module 108"
 			},
