@@ -5,7 +5,7 @@ def guide6(firstname: str, lastname: str) -> str:
 
     # Input for firstname and lastname
     # Concatenate the string in the desire sentence
-    result = "Hello " +firstname+ " " +lastname+ ". Welcome to programming"
+    result = "Hello " +firstname+" "+lastname+". Welcome to programming"
     return result
 
 if __name__ == "__main__":
