@@ -4,12 +4,14 @@ from to_do import TODO
 def guide15(sales: str) -> int:
     # Input as scandinavia countries
     # Find out total number of sales in Sweden and Norway
-
-
+    """
     sweden_sales = sales.count("S")
     norway_sales = sales.count("N")
     result = sweden_sales + norway_sales
     return result
+    """
+    return sales.count('S') + sales.count('N')
+
 
 if __name__ == "__main__":
 
