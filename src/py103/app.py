@@ -279,22 +279,15 @@ if __name__ == "__main__":
     else:
         print(day)
     """
-    # guide : 9
 
-    email = maria@gmail.com
-    is_not_empty = len(email) > 0
-    contains_at_sign = "@" in email
-    has_correct_ending = ".se" in email[-3:]
+    sentence = "ABCDA"
+    print(sentence[::-1]) # o/p --> ADCBA
 
-    if is_not_empty and contains_at_sign and has_correct_ending:
-        return True
-    else:
-        return False
+    print(sentence[-3:-1]) # o/p --> CD
+
+    print(sentence[-3:])  # o/p --> CDA
 
 
-
-    return is_not_empty and contains_at_sign and has_correct_ending
-    return len(email) > 0 and contains_at_sign and has_correct_ending
 
 
 
