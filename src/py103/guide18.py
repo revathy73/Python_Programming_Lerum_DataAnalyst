@@ -11,9 +11,7 @@ def guide18(a: int, b: int) -> int:
     while counter <= b:
           if counter % 5 == 0:
               result *= counter
-
           counter += 1
-
     return result
 
 if __name__ == "__main__":

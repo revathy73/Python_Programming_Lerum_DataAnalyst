@@ -12,9 +12,7 @@ def guide20(sentence: str, character: str) -> int:
         if current_character.lower() == character.lower():
             result = index
             break
-
         index += 1
-
     return result
 
 if __name__ == "__main__":
