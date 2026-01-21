@@ -256,7 +256,7 @@ if __name__ == "__main__":
     print(f"set_A: {set_A}")
     print(f"set_B: {set_B}")
     print(f"after union : set_c: {set_c}")
-    """
+    
     #4. intersect: Find the common items between two sets
     set_D = {1,2,3}
     set_E = {1,4,5,6}
@@ -267,6 +267,13 @@ if __name__ == "__main__":
     set_H = {4,5,6}
     set_I = set_G.difference(set_H)
     print(f"f after subtraction: {set_I}")
+    
+    # tuple comprehension::
+    vowels = ["a", "e", "i", "o", "u"]
+    alphabet = string.ascii_lowercase
+    result = tuple((letter.upper() if letter in vowels else letter for letter in alphabet))
+    return result  # The double bracket is the difference
+    """
 
 
 
