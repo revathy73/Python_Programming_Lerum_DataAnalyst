@@ -7,7 +7,7 @@ def task7(a: int, b: int) -> int:
         return 1
 
     result = 1
-    for integer in range(1, b+1):  #  for integer in range(b):
+    for integer in range(1, b+1):  #for integer in range(b):
         result = result * a
 
     return result
