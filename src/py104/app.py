@@ -272,7 +272,8 @@ if __name__ == "__main__":
     vowels = ["a", "e", "i", "o", "u"]
     alphabet = string.ascii_lowercase
     result = tuple((letter.upper() if letter in vowels else letter for letter in alphabet))
-    return result  # The double bracket is the difference
+    # The double bracket is the difference
+    return result 
     """
 
 
