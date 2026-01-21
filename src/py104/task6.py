@@ -2,15 +2,25 @@ from to_do import TODO
 
 
 def task6(sentence: str) -> str:
-
+    """
+    # solution 1:
     result = ""
-    for index,item in enumerate(sentence):
+    for index,letter in enumerate(sentence):
         if index % 2 == 0:
-            result += item.upper()
+            result += letter.upper()
         else:
-            result += item
-
+            result += letter
     return result
+    """
+
+    # solution 2: for loop with Ternary operator)
+    result = ""
+    for index,letter in enumerate(sentence):
+        letter_add = letter.upper() if index % 2 == 0 else letter
+        result += letter_add
+    return result
+
+
 
 if __name__ == "__main__":
 
