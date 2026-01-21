@@ -3,17 +3,15 @@ from to_do import TODO
 
 def task9(items: list[int]) -> list[int]:
 
-    if not items:      #if len(items) == []:
+    if not items:  # if len(items) == []:
         return []
 
     result = []
     for index,item in enumerate(items):
         if index == 0:
             result.append(item * item)
-
         else:
             result.append(item * items[index - 1])
-
     return result
 
     # solution 2: for loop (ternary operator)
