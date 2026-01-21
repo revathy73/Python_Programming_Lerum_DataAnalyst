@@ -12,11 +12,11 @@ def guide13(a: str, b: str) -> list[str]:
 
     return result
 
-    # solution 2: List comprehnension
+    # solution 2: List comprehension
     result = [letter for letter in a if letter in b]
     return  result
     """
-    # solution 2: List comprehnension(refactoring)
+    # solution 2: List comprehension(refactoring)
     return [letter for letter in a if letter in b]
 
 if __name__ == "__main__":

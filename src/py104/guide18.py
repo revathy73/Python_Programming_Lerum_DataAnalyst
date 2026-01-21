@@ -25,7 +25,7 @@ def guide18() -> tuple[str]:
         value_to_add = letter.upper() if letter in vowels else letter
         result.append(value_to_add)
 
-    return  tuple(result)
+    return tuple(result)
     """
     # solution 1: tuple comprehension
 
