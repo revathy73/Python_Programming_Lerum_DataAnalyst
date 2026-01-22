@@ -19,9 +19,7 @@ def task18(customers: list[str]) -> list[str]:
         (product,domain) = domain.split(".",1)
         if product not in result:
             result.append(product)
-
     return result
-
 
 if __name__ == "__main__":
     customer_list = [
