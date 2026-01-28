@@ -10,11 +10,8 @@ def task5(word: str) -> bool:
     for letter in word:
         lowered_letter = letter.lower()
         current_letter_count = counter.get(lowered_letter, 0)
-
         counter[lowered_letter] = current_letter_count + 1
-
     highest_value =max(counter.values())
-
     return highest_value == 1
 
 if __name__ == "__main__":
