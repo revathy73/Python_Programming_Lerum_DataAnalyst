@@ -15,8 +15,6 @@ def task4(sentence: str) -> dict[str, int]:
             if letter == char:
                 count += 1
         result[char] = count
-
-
     return result
 
 if __name__ == "__main__":

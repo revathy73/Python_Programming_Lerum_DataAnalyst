@@ -9,8 +9,8 @@ def task5(word: str) -> bool:
     counter = dict()
     for letter in word:
         lowered_letter = letter.lower()
-        current_letter_count = counter.get(lowered_letter, 0)
-        counter[lowered_letter] = current_letter_count + 1
+        #current_letter_count = counter.get(lowered_letter, 0)
+        counter[lowered_letter] = counter.get(lowered_letter, 0) + 1
     highest_value =max(counter.values())
     return highest_value == 1
 

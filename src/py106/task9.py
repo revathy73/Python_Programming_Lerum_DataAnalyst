@@ -25,12 +25,9 @@ def task9(identification: str) -> bool:
     if int(year) < 1947:
         return False
 
-
     return True
 
-
 if __name__ == "__main__":
-
     # identification = "19871208-3478"
     print(task9(identification = "19871208-3478"))
 
