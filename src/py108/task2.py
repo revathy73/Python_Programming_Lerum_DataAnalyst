@@ -1,29 +1,30 @@
 class Account:
 
-    def __init__(self,balance):
-        self.balance = balance
+    def __init__(self,balance: float):
+        self.__balance = balance
 
-    def get_balance(self):
-        return self.balance
+    @property
+    def balance(self) -> float:
+        return self.__balance
 
-    def deposit(self, amount) -> float:
+    def deposit(self, amount: float):
 
         if amount > 0:
-            self.balance += amount
+            self.__balance += amount
         else:
-            self.balance += 0
+            self.__balance += 0
 
-    def withdrawal(self, amount) -> float:
+    def withdrawal(self, amount: float):
 
-        if amount in range (0, self.balance +1):
-            self.balance -= amount
+        if amount in range (0, self.__balance + 1):
+            self.__balance -= amount
         else:
-            self.balance -= 0
+            self.__balance -= 0
 
     def fee(self):
 
         fee = self.balance * 0.05
-        self.balance = self.balance - fee
+        self.__balance = self.balance - fee
 
 if __name__ == "__main__":
 
@@ -31,3 +32,28 @@ if __name__ == "__main__":
     revathy.deposit(-300)
     revathy.withdrawal(5000)
     revathy.withdrawal(200)
+
+
+    class Account:
+        def __init__(self, balance: float):
+            self.__balance = balance
+
+        @property
+        def balance(self) -> float:
+            return self.__balance
+
+        def deposit(self, amount: float):
+            if amount > 0:
+                self.__balance += amount
+            else:
+                print("Cannot deposit negative amount")
+
+        def withdrawal(self, amount: float):
+            if amount > 0 and amount <= self.__balance:
+                self.__balance -= amount
+            else:
+                print("Insufficient balance")
+
+        def fee(self):
+            self.__balance -= self.__balance * 0.05
+
