@@ -1,3 +1,5 @@
+import re
+
 from to_do import TODO
 
 
@@ -20,16 +22,22 @@ def task13(sentence: str) -> str:
                 result = text
 
     return result
+    """
+    result = ""
+    words = re.sub("[,:;. ]","",sentence)
+    new_word= words.lower().split(" ")
+    word_counter = {}
+    most_used = -1.0
+    for word in new_word:
+        if word in word_counter:
+            word_counter[word] = word_counter[word] + 1
+            for text, text_used in word_counter.items():
+                if text_used > most_used:
+                    most_used = text_used
+                    result = text
+    return result # it has error ,need to check again
 
     """
-        #result[word] = result.get(name, 0) + 1
-        if word in new_dt:
-            new_dt[word] = new_dt[word] + 1
-        else:
-            new_dt[word] = 1
-    
-    """
-
 
 if __name__ == "__main__":
 

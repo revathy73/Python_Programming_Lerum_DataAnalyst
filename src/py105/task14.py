@@ -1,8 +1,9 @@
 from to_do import TODO
+import re
 
 
 def task14(sentence: str) -> str:
-
+    """
     words = ""
     for character in sentence:
         if character not in (',', ';', '.', ':',' '):
@@ -20,13 +21,23 @@ def task14(sentence: str) -> str:
                 result = character
 
     return result
+    """
 
-    """
-    if word in new_dt:
-            new_dt[word] = new_dt[word] + 1
-        else:
-            new_dt[word] = 1
-    """
+    word = re.sub("[,.:; ]","", sentence.lower())
+
+    result = ""
+    most_used = -1.0
+    letter_counter = {}
+    for letter in word:
+        letter_counter[letter] = word.count(letter)
+        for char,times_used in letter_counter.items():
+            if times_used > most_used:
+                most_used = times_used
+                result = char
+
+    return result
+
+
 
 if __name__ == "__main__":
 

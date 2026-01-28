@@ -10,7 +10,7 @@ def task15(sentence: str) -> dict[str, int]:
         if character not in (',', ';', '.', ':'):
             words += character
 
-    new_sentence = words.lower().split()
+    new_sentence = words.lower().split(" ")
     result = {}
     for word in new_sentence:
         result[word[0]] = result.get(word[0], 0) + 1
