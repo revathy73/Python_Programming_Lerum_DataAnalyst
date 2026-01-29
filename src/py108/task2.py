@@ -33,7 +33,7 @@ if __name__ == "__main__":
     revathy.withdrawal(5000)
     revathy.withdrawal(200)
 
-
+    """
     class Account:
         def __init__(self, balance: float):
             self.__balance = balance
@@ -56,4 +56,5 @@ if __name__ == "__main__":
 
         def fee(self):
             self.__balance -= self.__balance * 0.05
+        """
 
