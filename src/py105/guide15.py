@@ -3,22 +3,7 @@ from to_do import TODO
 
 def guide15(birthdays: dict[str, int]) -> dict[str, str]:
     """
-    result = {}
-    for month in birthdays.values():
-        if (month < 1 or month > 12):
-            return "error"
-
-        if month in range(3, 6):
-            result = "Spring"
-        elif month in range(6, 9):
-            result = "Summer"
-        elif month in range(9, 12):
-            result = "Fall"
-        else:
-            result = "Winter"
-
-    return result
-    # solution 2:
+    # solution 1:
     result = {}
     for name,month in birthdays.items():
         if (month < 1 or month > 12):
