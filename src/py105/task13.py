@@ -24,8 +24,8 @@ def task13(sentence: str) -> str:
     return result
     """
     result = ""
-    words = re.sub("[,:;. ]","",sentence)
-    new_word= words.lower().split(" ")
+    words = re.sub("[,:;.]","",sentence.lower())
+    new_word= words.split(" ")
     word_counter = {}
     most_used = -1.0
     for word in new_word:
