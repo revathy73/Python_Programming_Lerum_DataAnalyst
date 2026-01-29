@@ -4,7 +4,7 @@ from to_do import TODO
 
 
 def task13(sentence: str) -> str:
-    """
+
     words = ""
     for character in sentence:
         if character not in (',', ';', '.', ':'):
@@ -36,7 +36,7 @@ def task13(sentence: str) -> str:
                     most_used = text_used
                     result = text
     return result # it has error ,need to check again
-
+    """
 
 if __name__ == "__main__":
 
