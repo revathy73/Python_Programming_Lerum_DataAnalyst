@@ -1,862 +1,862 @@
 {
-    "showSimplifiedView": true,
-	"sourcePath": "src",
-	"chapters": [
-		{
-			"path": "py101",
-			"presentation": {
-				"title": "Module 101"
-			},
-			"assignments": [
-				{
-					"filename": "guide1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/guide1/"
-				},
-				{
-					"filename": "guide2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/guide2/"
-				},
-				{
-					"filename": "guide3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/guide3/"
-				},
-				{
-					"filename": "guide4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/guide4/"
-				},
-				{
-					"filename": "guide5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/guide5/"
-				},
-				{
-					"filename": "guide6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/guide6/"
-				},
-				{
-					"filename": "guide7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/guide7/"
-				},
-				{
-					"filename": "guide8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/guide8/"
-				},
-				{
-					"filename": "task1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task1/"
-				},
-				{
-					"filename": "task2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task2/"
-				},
-				{
-					"filename": "task3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task3/"
-				},
-				{
-					"filename": "task4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task4/"
-				},
-				{
-					"filename": "task5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task5/"
-				},
-				{
-					"filename": "task6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task6/"
-				},
-				{
-					"filename": "task7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task7/"
-				},
-				{
-					"filename": "task8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task8/"
-				},
-				{
-					"filename": "task9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task9/"
-				},
-				{
-					"filename": "task10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task10/"
-				},
-				{
-					"filename": "task11.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/101/task11/"
-				}
-			]
-		},
-		{
-			"path": "py102",
-			"presentation": {
-				"title": "Module 102"
-			},
-			"assignments": [
-				{
-					"filename": "guide1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide1/"
-				},
-				{
-					"filename": "guide2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide2/"
-				},
-				{
-					"filename": "guide3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide3/"
-				},
-				{
-					"filename": "guide4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide4/"
-				},
-				{
-					"filename": "guide5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide5/"
-				},
-				{
-					"filename": "guide6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide6/"
-				},
-				{
-					"filename": "guide7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide7/"
-				},
-				{
-					"filename": "guide8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide8/"
-				},
-				{
-					"filename": "guide9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide9/"
-				},
-				{
-					"filename": "guide10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide10/"
-				},
-				{
-					"filename": "guide11.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide11/"
-				},
-				{
-					"filename": "guide12.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide12/"
-				},
-				{
-					"filename": "guide13.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide13/"
-				},
-				{
-					"filename": "guide14.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide14/"
-				},
-				{
-					"filename": "guide15.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/guide15/"
-				},
-				{
-					"filename": "task1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task1/"
-				},
-				{
-					"filename": "task2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task2/"
-				},
-				{
-					"filename": "task3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task3/"
-				},
-				{
-					"filename": "task4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task4/"
-				},
-				{
-					"filename": "task5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task5/"
-				},
-				{
-					"filename": "task6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task6/"
-				},
-				{
-					"filename": "task7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task7/"
-				},
-				{
-					"filename": "task8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task8/"
-				},
-				{
-					"filename": "task9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task9/"
-				},
-				{
-					"filename": "task10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task10/"
-				},
-				{
-					"filename": "task11.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task11/"
-				},
-				{
-					"filename": "task12.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task12/"
-				},
-				{
-					"filename": "task13.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/102/task13/"
-				}
-			]
-		},
-		{
-			"path": "py103",
-			"presentation": {
-				"title": "Module 103"
-			},
-			"assignments": [
-				{
-					"filename": "guide1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide1/"
-				},
-				{
-					"filename": "guide2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide2/"
-				},
-				{
-					"filename": "guide3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide3/"
-				},
-				{
-					"filename": "guide4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide4/"
-				},
-				{
-					"filename": "guide5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide5/"
-				},
-				{
-					"filename": "guide6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide6/"
-				},
-				{
-					"filename": "guide7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide7/"
-				},
-				{
-					"filename": "guide8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide8/"
-				},
-				{
-					"filename": "guide9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide9/"
-				},
-				{
-					"filename": "guide10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide10/"
-				},
-				{
-					"filename": "guide11.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide11/"
-				},
-				{
-					"filename": "guide12.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide12/"
-				},
-				{
-					"filename": "guide13.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide13/"
-				},
-				{
-					"filename": "guide14.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide14/"
-				},
-				{
-					"filename": "guide15.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide15/"
-				},
-				{
-					"filename": "guide16.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide16/"
-				},
-				{
-					"filename": "guide17.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide17/"
-				},
-				{
-					"filename": "guide18.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide18/"
-				},
-				{
-					"filename": "guide19.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide19/"
-				},
-				{
-					"filename": "guide20.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/guide20/"
-				},
-				{
-					"filename": "task1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task1/"
-				},
-				{
-					"filename": "task2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task2/"
-				},
-				{
-					"filename": "task3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task3/"
-				},
-				{
-					"filename": "task4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task4/"
-				},
-				{
-					"filename": "task5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task5/"
-				},
-				{
-					"filename": "task6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task6/"
-				},
-				{
-					"filename": "task7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task7/"
-				},
-				{
-					"filename": "task8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task8/"
-				},
-				{
-					"filename": "task9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task9/"
-				},
-				{
-					"filename": "task10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/103/task10/"
-				}
-			]
-		},
-		{
-			"path": "py104",
-			"presentation": {
-				"title": "Module 104"
-			},
-			"assignments": [
-				{
-					"filename": "guide1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide1/"
-				},
-				{
-					"filename": "guide2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide2/"
-				},
-				{
-					"filename": "guide3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide3/"
-				},
-				{
-					"filename": "guide4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide4/"
-				},
-				{
-					"filename": "guide5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide5/"
-				},
-				{
-					"filename": "guide6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide6/"
-				},
-				{
-					"filename": "guide7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide7/"
-				},
-				{
-					"filename": "guide8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide8/"
-				},
-				{
-					"filename": "guide9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide9/"
-				},
-				{
-					"filename": "guide10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide10/"
-				},
-				{
-					"filename": "guide11.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide11/"
-				},
-				{
-					"filename": "guide12.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide12/"
-				},
-				{
-					"filename": "guide13.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide13/"
-				},
-				{
-					"filename": "guide14.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide14/"
-				},
-				{
-					"filename": "guide15.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide15/"
-				},
-				{
-					"filename": "guide16.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide16/"
-				},
-				{
-					"filename": "guide17.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide17/"
-				},
-				{
-					"filename": "guide18.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide18/"
-				},
-				{
-					"filename": "guide19.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide19/"
-				},
-				{
-					"filename": "guide20.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide20/"
-				},
-				{
-					"filename": "guide21.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide21/"
-				},
-				{
-					"filename": "guide22.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/guide22/"
-				},
-				{
-					"filename": "task1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task1/"
-				},
-				{
-					"filename": "task2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task2/"
-				},
-				{
-					"filename": "task3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task3/"
-				},
-				{
-					"filename": "task4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task4/"
-				},
-				{
-					"filename": "task5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task5/"
-				},
-				{
-					"filename": "task6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task6/"
-				},
-				{
-					"filename": "task7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task7/"
-				},
-				{
-					"filename": "task8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task8/"
-				},
-				{
-					"filename": "task9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task9/"
-				},
-				{
-					"filename": "task10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task10/"
-				},
-				{
-					"filename": "task11.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task11/"
-				},
-				{
-					"filename": "task12.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task12/"
-				},
-				{
-					"filename": "task13.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task13/"
-				},
-				{
-					"filename": "task14.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task14/"
-				},
-				{
-					"filename": "task15.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task15/"
-				},
-				{
-					"filename": "task16.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task16/"
-				},
-				{
-					"filename": "task17.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task17/"
-				},
-				{
-					"filename": "task18.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/104/task18/"
-				}
-			]
-		},
-		{
-			"path": "py105",
-			"presentation": {
-				"title": "Module 105"
-			},
-			"assignments": [
-				{
-					"filename": "guide1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide1/"
-				},
-				{
-					"filename": "guide2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide2/"
-				},
-				{
-					"filename": "guide3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide3/"
-				},
-				{
-					"filename": "guide4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide4/"
-				},
-				{
-					"filename": "guide5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide5/"
-				},
-				{
-					"filename": "guide6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide6/"
-				},
-				{
-					"filename": "guide7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide7/"
-				},
-				{
-					"filename": "guide8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide8/"
-				},
-				{
-					"filename": "guide9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide9/"
-				},
-				{
-					"filename": "guide10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide10/"
-				},
-				{
-					"filename": "guide11.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide11/"
-				},
-				{
-					"filename": "guide12.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide12/"
-				},
-				{
-					"filename": "guide13.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide13/"
-				},
-				{
-					"filename": "guide14.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide14/"
-				},
-				{
-					"filename": "guide15.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide15/"
-				},
-				{
-					"filename": "guide16.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide16/"
-				},
-				{
-					"filename": "guide17.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide17/"
-				},
-				{
-					"filename": "guide18.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide18/"
-				},
-				{
-					"filename": "guide19.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide19/"
-				},
-				{
-					"filename": "guide20.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/guide20/"
-				},
-				{
-					"filename": "task1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task1/"
-				},
-				{
-					"filename": "task2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task2/"
-				},
-				{
-					"filename": "task3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task3/"
-				},
-				{
-					"filename": "task4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task4/"
-				},
-				{
-					"filename": "task5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task5/"
-				},
-				{
-					"filename": "task6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task6/"
-				},
-				{
-					"filename": "task7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task7/"
-				},
-				{
-					"filename": "task8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task8/"
-				},
-				{
-					"filename": "task9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task9/"
-				},
-				{
-					"filename": "task10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task10/"
-				},
-				{
-					"filename": "task11.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task11/"
-				},
-				{
-					"filename": "task12.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task12/"
-				},
-				{
-					"filename": "task13.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task13/"
-				},
-				{
-					"filename": "task14.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task14/"
-				},
-				{
-					"filename": "task15.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/105/task15/"
-				}
-			]
-		},
-		{
-			"path": "py106",
-			"presentation": {
-				"title": "Module 106"
-			},
-			"assignments": [
-				{
-					"filename": "guide1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide1/"
-				},
-				{
-					"filename": "guide2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide2/"
-				},
-				{
-					"filename": "guide3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide3/"
-				},
-				{
-					"filename": "guide4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide4/"
-				},
-				{
-					"filename": "guide5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide5/"
-				},
-				{
-					"filename": "guide6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide6/"
-				},
-				{
-					"filename": "guide7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide7/"
-				},
-				{
-					"filename": "guide8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide8/"
-				},
-				{
-					"filename": "guide9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide9/"
-				},
-				{
-					"filename": "guide10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/guide10/"
-				},
-				{
-					"filename": "task1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task1/"
-				},
-				{
-					"filename": "task2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task2/"
-				},
-				{
-					"filename": "task3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task3/"
-				},
-				{
-					"filename": "task4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task4/"
-				},
-				{
-					"filename": "task5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task5/"
-				},
-				{
-					"filename": "task6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task6/"
-				},
-				{
-					"filename": "task7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task7/"
-				},
-				{
-					"filename": "task8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task8/"
-				},
-				{
-					"filename": "task9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task9/"
-				},
-				{
-					"filename": "task10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/106/task10/"
-				}
-			]
-		},
-		{
-			"path": "py107",
-			"presentation": {
-				"title": "Module 107"
-			},
-			"assignments": [
-				{
-					"filename": "guide1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide1/"
-				},
-				{
-					"filename": "guide2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide2/"
-				},
-				{
-					"filename": "guide3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide3/"
-				},
-				{
-					"filename": "guide4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide4/"
-				},
-				{
-					"filename": "guide5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide5/"
-				},
-				{
-					"filename": "guide6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide6/"
-				},
-				{
-					"filename": "guide7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide7/"
-				},
-				{
-					"filename": "guide8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide8/"
-				},
-				{
-					"filename": "guide9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/guide9/"
-				},
-				{
-					"filename": "task1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task1/"
-				},
-				{
-					"filename": "task2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task2/"
-				},
-				{
-					"filename": "task3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task3/"
-				},
-				{
-					"filename": "task4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task4/"
-				},
-				{
-					"filename": "task5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task5/"
-				},
-				{
-					"filename": "task6.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task6/"
-				},
-				{
-					"filename": "task7.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task7/"
-				},
-				{
-					"filename": "task8.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task8/"
-				},
-				{
-					"filename": "task9.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task9/"
-				},
-				{
-					"filename": "task10.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/107/task10/"
-				}
-			]
-		},
-		{
-			"path": "py108",
-			"presentation": {
-				"title": "Module 108"
-			},
-			"assignments": [
-				{
-					"filename": "guide1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/108/guide1/"
-				},
-				{
-					"filename": "guide2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/108/guide2/"
-				},
-				{
-					"filename": "task1.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/108/task1/"
-				},
-				{
-					"filename": "task2.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/108/task2/"
-				},
-				{
-					"filename": "task3.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/108/task3/"
-				},
-				{
-					"filename": "task4.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/108/task4/"
-				},
-				{
-					"filename": "task5.py",
-					"descriptionUrl": "https://linerotech-content.netlify.app/homework/108/task5/"
-				}
-			]
-		}
-	]
+  "showSimplifiedView": true,
+  "sourcePath": "src/",
+  "chapters": [
+    {
+      "path": "py101",
+      "presentation": {
+        "title": "Module 101"
+      },
+      "assignments": [
+        {
+          "filename": "guide1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_eg7uvmnwm1vp6ux/"
+        },
+        {
+          "filename": "guide2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_8w70b69ydvso6pj/"
+        },
+        {
+          "filename": "guide3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_21vkpw06alxsqne/"
+        },
+        {
+          "filename": "guide4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_ffu7f6osfr1ibus/"
+        },
+        {
+          "filename": "guide5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_t6ppsfy8qlj7u6k/"
+        },
+        {
+          "filename": "guide6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_tat5ze6g3eqy5uu/"
+        },
+        {
+          "filename": "guide7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_osim3n7lmsb08ud/"
+        },
+        {
+          "filename": "guide8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_3dx1xtvg6aaua4h/"
+        },
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_20vr235ll02cnqu/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_cuoilua2f9yg8ff/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_5hs9elycc1o4g1u/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_xw8x91ozys7f7rv/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_5ogf6tn5162fw3a/"
+        },
+        {
+          "filename": "task6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_yqp5hoe7mhq7jhq/"
+        },
+        {
+          "filename": "task7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_rc5p8so2ip4ncgw/"
+        },
+        {
+          "filename": "task8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_4lmuynx4188f7wp/"
+        },
+        {
+          "filename": "task9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_glfu2vpbpe0idec/"
+        },
+        {
+          "filename": "task10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_myg67bl45ui57zh/"
+        },
+        {
+          "filename": "task11.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h1_830frj91ej3hkdg/"
+        }
+      ]
+    },
+    {
+      "path": "py102",
+      "presentation": {
+        "title": "Module 102"
+      },
+      "assignments": [
+        {
+          "filename": "guide1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_ak9il8oyy2acq8c/"
+        },
+        {
+          "filename": "guide2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_y4sdloijx5k7b0e/"
+        },
+        {
+          "filename": "guide3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_3xr2i2pyu3a99dm/"
+        },
+        {
+          "filename": "guide4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_r30sjei28i4raaa/"
+        },
+        {
+          "filename": "guide5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_7py1tsmpj8cejty/"
+        },
+        {
+          "filename": "guide6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_wt2524h8xvlwuja/"
+        },
+        {
+          "filename": "guide7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_0aeqjhry0j7q61z/"
+        },
+        {
+          "filename": "guide8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_hl3ysr6i19epz9o/"
+        },
+        {
+          "filename": "guide9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_ev583dtse873osj/"
+        },
+        {
+          "filename": "guide10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_9lassi510tcd8of/"
+        },
+        {
+          "filename": "guide11.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_itlaozb47cf83j8/"
+        },
+        {
+          "filename": "guide12.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_6oma04vtg0d9g27/"
+        },
+        {
+          "filename": "guide13.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_9yfa4mbeogzvmph/"
+        },
+        {
+          "filename": "guide14.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_jh03jdj8iqgcd7p/"
+        },
+        {
+          "filename": "guide15.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_6drlr03yl4ruj1u/"
+        },
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_uy0rm5paccwq8fi/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_6ddsj8pkylbm6uz/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_r18fcru9x60q8k1/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_sptfd6kyps6yojz/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_nnecd0j9mo63plh/"
+        },
+        {
+          "filename": "task6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_9zbtwjv7928iwhu/"
+        },
+        {
+          "filename": "task7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_54qnbx71ry3tctv/"
+        },
+        {
+          "filename": "task8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_hym6ukaaczv8tt2/"
+        },
+        {
+          "filename": "task9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_gza7i9svxo9kc19/"
+        },
+        {
+          "filename": "task10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_v9wnodgqinh1m2f/"
+        },
+        {
+          "filename": "task11.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_iofipp3l8aq7ahh/"
+        },
+        {
+          "filename": "task12.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_wr95zkrs4ewui7n/"
+        },
+        {
+          "filename": "task13.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h2_kqhl32byku6s577/"
+        }
+      ]
+    },
+    {
+      "path": "py103",
+      "presentation": {
+        "title": "Module 103"
+      },
+      "assignments": [
+        {
+          "filename": "guide1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_bzkg1ahq9rv9awx/"
+        },
+        {
+          "filename": "guide2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_wm5077cy9ozylns/"
+        },
+        {
+          "filename": "guide3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_74cdczmo2auztis/"
+        },
+        {
+          "filename": "guide4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_b1boykymw1oyla8/"
+        },
+        {
+          "filename": "guide5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_d8i43eeadmn18r2/"
+        },
+        {
+          "filename": "guide6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_oq4yzh0t3h4ukhc/"
+        },
+        {
+          "filename": "guide7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_ezzchlvje8hdssj/"
+        },
+        {
+          "filename": "guide8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_k8tflh902lfs9p3/"
+        },
+        {
+          "filename": "guide9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_72puvzoq51742w5/"
+        },
+        {
+          "filename": "guide10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_68qkw0qjpgbnlx8/"
+        },
+        {
+          "filename": "guide11.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_8rtcx9sqz8vl8j4/"
+        },
+        {
+          "filename": "guide12.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_44hwupk4fo3shq8/"
+        },
+        {
+          "filename": "guide13.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_o8b7pd2gaw8uapc/"
+        },
+        {
+          "filename": "guide14.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_3jn8ja8nc3lksml/"
+        },
+        {
+          "filename": "guide15.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_bkimp2772l8q102/"
+        },
+        {
+          "filename": "guide16.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_bwzri2now9rqah5/"
+        },
+        {
+          "filename": "guide17.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_lmdjpl7ij9lxeef/"
+        },
+        {
+          "filename": "guide18.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_pwye8dzfqtrwspc/"
+        },
+        {
+          "filename": "guide19.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_wlxnstrtxtlenjw/"
+        },
+        {
+          "filename": "guide20.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_1mi7pirfxz5vgs7/"
+        },
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_28mmzdisswaagto/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_ipb8p4sdo1ckrh3/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_h6huhytiz249a3e/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_wi6i76behj3x3bk/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_bcikyhlgq0dk36i/"
+        },
+        {
+          "filename": "task6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_wwkvfazd7pzx2f4/"
+        },
+        {
+          "filename": "task7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_hmcstl2fjastmnz/"
+        },
+        {
+          "filename": "task8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_8hoj0vmyjvll4gr/"
+        },
+        {
+          "filename": "task9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_ksbsylbopx4rfns/"
+        },
+        {
+          "filename": "task10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h3_k03dzt0klbs0kdb/"
+        }
+      ]
+    },
+    {
+      "path": "py104",
+      "presentation": {
+        "title": "Module 104"
+      },
+      "assignments": [
+        {
+          "filename": "guide1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_v1san4vlfoahfft/"
+        },
+        {
+          "filename": "guide2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_vqnt6kgrcy4vvdu/"
+        },
+        {
+          "filename": "guide3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_zr1hx60lsj0cb0m/"
+        },
+        {
+          "filename": "guide4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_h1n6z7r0squfnjh/"
+        },
+        {
+          "filename": "guide5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_vaw2gtivxf96k72/"
+        },
+        {
+          "filename": "guide6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_srpms3mejov1dke/"
+        },
+        {
+          "filename": "guide7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_qtpe5tddal2ycfq/"
+        },
+        {
+          "filename": "guide8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_u6qe6gs2dexh07n/"
+        },
+        {
+          "filename": "guide9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_90qqogmn3og2ec2/"
+        },
+        {
+          "filename": "guide10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_6ppjtx7njy9t56i/"
+        },
+        {
+          "filename": "guide11.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_kqt50c9kx718h18/"
+        },
+        {
+          "filename": "guide12.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_9e8lrmonjzasgve/"
+        },
+        {
+          "filename": "guide13.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_yrud8m932sntlqi/"
+        },
+        {
+          "filename": "guide14.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_8jdseggr8fo1i39/"
+        },
+        {
+          "filename": "guide15.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_lvlxpb5lv4bbuby/"
+        },
+        {
+          "filename": "guide16.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_nhspesud6w0oprl/"
+        },
+        {
+          "filename": "guide17.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_hztxh35m4zemxqd/"
+        },
+        {
+          "filename": "guide18.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_m73j02g9k9ltbhg/"
+        },
+        {
+          "filename": "guide19.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_j5fdhpju6optujs/"
+        },
+        {
+          "filename": "guide20.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_y402bv05ejo9vbn/"
+        },
+        {
+          "filename": "guide21.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_ldrjzljp46e91jn/"
+        },
+        {
+          "filename": "guide22.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_2c246enz5x52x69/"
+        },
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_dssty18zodx7uba/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_6t4ey2gsc9r1j90/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_jxc2qb8fnkbrnjo/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_9a7yrdwwfs61kax/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_owr06jrx765ehkq/"
+        },
+        {
+          "filename": "task6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_20njl5bw6ikjw3r/"
+        },
+        {
+          "filename": "task7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_pgq6oz07kbjsocp/"
+        },
+        {
+          "filename": "task8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_pn33arwdxu4syql/"
+        },
+        {
+          "filename": "task9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_jdb8d64f2ygd336/"
+        },
+        {
+          "filename": "task10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_y76xyoso97ga12f/"
+        },
+        {
+          "filename": "task11.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_rdaqxq96fgy11b6/"
+        },
+        {
+          "filename": "task12.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_5cnup2url1eh62k/"
+        },
+        {
+          "filename": "task13.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_aryay6x8lvrbijr/"
+        },
+        {
+          "filename": "task14.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_63aq37ux66l3cnk/"
+        },
+        {
+          "filename": "task15.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_mucquudpfr1lx5k/"
+        },
+        {
+          "filename": "task16.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_r32atmqgy0umtje/"
+        },
+        {
+          "filename": "task17.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_5bsy95w3iatgmfx/"
+        },
+        {
+          "filename": "task18.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h4_r05adf2o54oiws4/"
+        }
+      ]
+    },
+    {
+      "path": "py105",
+      "presentation": {
+        "title": "Module 105"
+      },
+      "assignments": [
+        {
+          "filename": "guide1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_m0uhtf5f3ikon0n/"
+        },
+        {
+          "filename": "guide2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_0nyormyzjanfbdy/"
+        },
+        {
+          "filename": "guide3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_fzbkltsku8j38b4/"
+        },
+        {
+          "filename": "guide4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_wbjn0pi7zib2835/"
+        },
+        {
+          "filename": "guide5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_emtyqxuljkj44y1/"
+        },
+        {
+          "filename": "guide6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_yrsg0b22xf5o4sj/"
+        },
+        {
+          "filename": "guide7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_y398pyijezuuen8/"
+        },
+        {
+          "filename": "guide8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_5l3t6w1p64pzm1o/"
+        },
+        {
+          "filename": "guide9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_mkga261abnk8y2f/"
+        },
+        {
+          "filename": "guide10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_75gjtu7hmnmi4yt/"
+        },
+        {
+          "filename": "guide11.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_fzbt5lor55mmhue/"
+        },
+        {
+          "filename": "guide12.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_2unzlh4sgrwbqt0/"
+        },
+        {
+          "filename": "guide13.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_89khm6y7momet45/"
+        },
+        {
+          "filename": "guide14.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_yvn16td1mnr9stc/"
+        },
+        {
+          "filename": "guide15.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_riwh710p1285f6k/"
+        },
+        {
+          "filename": "guide16.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_ljgtna4nj6akl1q/"
+        },
+        {
+          "filename": "guide17.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_f0lg5wzknky2576/"
+        },
+        {
+          "filename": "guide18.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_6xqzm45krtm9xbz/"
+        },
+        {
+          "filename": "guide19.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_7y29gbqdlshq07q/"
+        },
+        {
+          "filename": "guide20.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_p0q6xka4md146qs/"
+        },
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_tvabum3uwkoww9d/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_rcj30fx39gb9ech/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_vgfp63a36dqk9wg/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_yi8qw1hp5ygj06m/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_0in39mnyk2ejdoy/"
+        },
+        {
+          "filename": "task6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_2u1qe9he8k78j9g/"
+        },
+        {
+          "filename": "task7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_ixj06j82lpye9n3/"
+        },
+        {
+          "filename": "task8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_1ym0h822m7y52yc/"
+        },
+        {
+          "filename": "task9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_03eny2w2q7d0szv/"
+        },
+        {
+          "filename": "task10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_6ef1o6m0nbf6h6x/"
+        },
+        {
+          "filename": "task11.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_bmn8fg7wmmvgz4l/"
+        },
+        {
+          "filename": "task12.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_3f5qw3nmjs777y8/"
+        },
+        {
+          "filename": "task13.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_ag89hukgmpehg75/"
+        },
+        {
+          "filename": "task14.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_ftj6uxses4qc1i5/"
+        },
+        {
+          "filename": "task15.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h5_ehjwkarfidvqwti/"
+        }
+      ]
+    },
+    {
+      "path": "py106",
+      "presentation": {
+        "title": "Module 106"
+      },
+      "assignments": [
+        {
+          "filename": "guide1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_7rm5ue3iomwu4sb/"
+        },
+        {
+          "filename": "guide2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_ikte3avnzcdaodu/"
+        },
+        {
+          "filename": "guide3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_urxm7dg6ml3p8bb/"
+        },
+        {
+          "filename": "guide4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_2gapoqxx1sqrilo/"
+        },
+        {
+          "filename": "guide5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_9kojdb4hkebox5y/"
+        },
+        {
+          "filename": "guide6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_w5xj68za9ftw3oo/"
+        },
+        {
+          "filename": "guide7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_mq24g1el9053k5s/"
+        },
+        {
+          "filename": "guide8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_r0zwqwolykpr0xd/"
+        },
+        {
+          "filename": "guide9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_m7wnpqz0gdzzi8f/"
+        },
+        {
+          "filename": "guide10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_i5jiovi5jtkmfdx/"
+        },
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_935ywvjwv8cnms0/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_wo06keezauj7tcj/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_bwgh4m0wq0cze1p/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_3z24h0pk7tihkbd/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_mm2b5kh1s45l96r/"
+        },
+        {
+          "filename": "task6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_00vld9ap9oe791y/"
+        },
+        {
+          "filename": "task7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_w6rtvgj6uv9yy22/"
+        },
+        {
+          "filename": "task8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_4uf27p2sv2bbtkx/"
+        },
+        {
+          "filename": "task9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_2harcg6oppobtxc/"
+        },
+        {
+          "filename": "task10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h6_s3axck6mvv3q3wb/"
+        }
+      ]
+    },
+    {
+      "path": "py107",
+      "presentation": {
+        "title": "Module 107"
+      },
+      "assignments": [
+        {
+          "filename": "guide1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_cjpmd12cp702bjb/"
+        },
+        {
+          "filename": "guide2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_l70g92aubxccuv2/"
+        },
+        {
+          "filename": "guide3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_1u2xmvuf0tlb8ld/"
+        },
+        {
+          "filename": "guide4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_2zfz6yvvghyj4bm/"
+        },
+        {
+          "filename": "guide5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_o0j48oe7k9frszs/"
+        },
+        {
+          "filename": "guide6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_5oolgnljtk2biik/"
+        },
+        {
+          "filename": "guide7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_7a4m49xxmpx0pff/"
+        },
+        {
+          "filename": "guide8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_4zm4o00lps6vrvn/"
+        },
+        {
+          "filename": "guide9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_2ffwgbx8b6s6iql/"
+        },
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_zei62u8jimd2ric/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_4bpqpvpvlm3puoj/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_1s4cgl6uhn1jqlz/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_75n2ftj07wcdlbx/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_rvqpcd53uptq212/"
+        },
+        {
+          "filename": "task6.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_a6yu6re3wl8w3xo/"
+        },
+        {
+          "filename": "task7.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_ispyrib881fqkm3/"
+        },
+        {
+          "filename": "task8.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_ekmtcb7iosh75o1/"
+        },
+        {
+          "filename": "task9.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_9ss5s1f394nb3fu/"
+        },
+        {
+          "filename": "task10.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h7_xha44remdkri2ay/"
+        }
+      ]
+    },
+    {
+      "path": "py108",
+      "presentation": {
+        "title": "Module 108"
+      },
+      "assignments": [
+        {
+          "filename": "guide1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h8_62y3gri7kweza4q/"
+        },
+        {
+          "filename": "guide2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h8_57nzi6i5kbgw10o/"
+        },
+        {
+          "filename": "task1.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h8_utirnvxvm7pl9ob/"
+        },
+        {
+          "filename": "task2.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h8_rkq2062jy9lmh9n/"
+        },
+        {
+          "filename": "task3.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h8_wtmdopk6hdm20kp/"
+        },
+        {
+          "filename": "task4.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h8_vt69u84udewcwxk/"
+        },
+        {
+          "filename": "task5.py",
+          "descriptionUrl": "https://linerotech-content.netlify.app/h8_u8b0ps9jaootbmo/"
+        }
+      ]
+    }
+  ]
 }
