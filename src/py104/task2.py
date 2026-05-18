@@ -1,6 +1,5 @@
 from to_do import TODO
 
-
 def task2(items: list[int]) -> int:
 
     if not items:
