@@ -1,3 +1,16 @@
+"""
+Create a function called censorship that satisfies the following requirements:
+
+a) One argument of type String.
+b) The return type is a String.
+c) The function censors all words that are more than four characters long with *.
+Ignore special characters such as: ,, ;, ., :.
+Example Solution::
+1) Assume the input is
+"I live in Sweden"
+a) The function returns
+"I live in ******"
+"""
 def censorship(sentence : str) -> str :
 
     result = []
