@@ -1,3 +1,8 @@
+"""
+Create a function called exponential which raises all even numbers
+between 20 and 40 to the third power,
+adds the results together, and prints the result.
+"""
 def exponential():
 
     """

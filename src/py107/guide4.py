@@ -1,3 +1,11 @@
+"""
+Create a function called equalizer that accepts any two strings and returns
+a list with all the characters that are found in both strings.
+
+Notes
+The resulting list cannot have repeated items.
+Your solution has to be case-sensitive
+"""
 def equalizer(text1= "",text2= ""):
 
     result = []

@@ -1,3 +1,7 @@
+"""
+Create a function called multiplication which multiplies all the odd
+numbers between 1 and 9 and prints the result
+"""
 def multiplication():
     """
     # solution 1: using for loop and no step
