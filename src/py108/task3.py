@@ -1,3 +1,31 @@
+"""
+Create a class called Student that satisfies the following requirements:
+
+1. The class has one attribute called grades of type List of Double:
+
+grades can be read but not modified from outside the class.
+2. A method called gpa
+
+No parameters
+The method can be executed from outside the class
+Returns the student’s grade point average, or GPA, as Double
+3. A method called bonus
+
+No parameters
+Adds 1 point to each grade
+The method can be executed from outside the class
+The method does not return any value
+4. A method called lowest
+
+No parameters
+The method can be executed from outside the class
+Returns the lowest grade as a Double
+5. A method called highest
+
+No parameters
+The method can be executed from outside the class
+Returns the highest grade as a Double
+"""
 import math
 from itertools import count
 

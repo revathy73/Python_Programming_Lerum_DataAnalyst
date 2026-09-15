@@ -1,3 +1,21 @@
+"""
+Create a class called Circle that satisfies the following requirements:
+
+1. The class contains one attribute:
+
+radius of type Double
+It cannot be accessed from outside the class
+2. A method called area
+
+No parameters
+The method can be executed from outside the class
+Returns the area of the circle as a Double
+3. A method called perimeter
+
+No parameters
+The method can be executed from outside the class
+Returns the perimeter of the circle as a Double
+"""
 class Circle:
     def __init__(self,radius):
         self.radius = radius
