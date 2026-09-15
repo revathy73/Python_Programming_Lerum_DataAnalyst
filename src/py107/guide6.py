@@ -1,3 +1,9 @@
+"""
+Create a function called summation in which the user can provide an arbitrary
+amount of numbers.
+
+The function shall then output the sum of all the given numbers.
+"""
 def summation(*numbers):
     # solution 1
     """

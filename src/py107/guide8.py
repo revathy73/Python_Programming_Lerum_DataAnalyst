@@ -1,3 +1,10 @@
+"""
+Code has been given that identifies the indices at which the letter H appears
+in a sentence.
+
+Generalize the given code into a function called indexer so that the function
+can be used for any given sentence.
+"""
 def indexer(sentence: str) -> list[int]:
 
     positions = []

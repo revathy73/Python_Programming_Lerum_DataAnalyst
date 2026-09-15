@@ -1,3 +1,7 @@
+"""
+Create a function called bonus which accepts a list of numbers and modifies
+the original list so that all of its values are incremented by one.
+"""
 def bonus(numbers):
     for index, number in enumerate(numbers):
         numbers[index] = number + 1

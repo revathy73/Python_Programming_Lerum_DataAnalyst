@@ -1,3 +1,10 @@
+"""
+Code has been given that transforms every vowel into a $ sign for a given
+sentence.
+
+Generalize the given code into a function called transformer so that the
+function can be used for any sentence.
+"""
 def transformer(sentence: str) -> str:
 
     letters_of_interest = ["a", "e", "i", "o", "u"]
