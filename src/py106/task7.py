@@ -1,3 +1,31 @@
+"""
+You are given the variable sentence. Count the number of letters and digits
+
+Save your result in a variable called result.
+
+Set the count of digits and letters to 0 if sentence is null
+result must have the keys letters and digits.
+Example Solution #1
+Assume that
+sentence is H3ll0
+Then
+result is
+{
+    "letters" to 3,
+    "digits" to 2
+}
+Example Solution #2
+Assume that
+sentence is null
+Then
+result is
+{
+    "letters" to 0,
+    "digits" to 0
+}
+Notes
+Ignore characters that are not letters or digits.
+"""
 from to_do import TODO
 
 

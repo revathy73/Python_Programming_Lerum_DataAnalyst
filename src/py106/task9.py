@@ -1,3 +1,20 @@
+"""
+You are given the variable identification, which represents a Swedish personal
+number. Determine if it is valid
+
+Save your result in a variable called result.
+
+Set result to false if identification is null
+Notes
+A personal number is valid if it is both well-formatted and realistic.
+A well-formatted Swedish Personal Number has the structure YYYYMMDD-XXXX.
+The personal number 19923131-1090 has the correct format but is unrealistic
+because there is no month 31.
+The last four numbers can be any number.
+Assume that all months have 31 days.
+Your code must only accept personal numbers starting in the year 1947 when
+Sweden introduced the system.
+"""
 from to_do import TODO
 
 

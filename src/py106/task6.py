@@ -1,3 +1,17 @@
+"""
+You are given the variable items. Multiply each element by its index.
+
+Save your result in a variable called result.
+
+In the case that an element in items is null, assign a value of null in the
+new list.
+Set result to be an empty list if items is an empty list
+Example Solution
+Assume that
+items is [1, 2, null]
+Then
+result is [0, 2, null]
+"""
 from to_do import TODO
 
 

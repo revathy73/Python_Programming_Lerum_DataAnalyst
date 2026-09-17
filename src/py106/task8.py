@@ -1,3 +1,17 @@
+"""
+You are given a list called items. Store in a new list the elements that are
+not null and have a length greater than 3.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+items is
+["Hello", "Hej", "Gothenburg", null]
+Then
+result is
+["Hello", "Gothenburg"]
+"""
 from to_do import TODO
 
 
