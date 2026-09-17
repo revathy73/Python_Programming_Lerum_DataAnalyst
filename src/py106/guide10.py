@@ -1,3 +1,23 @@
+"""
+You are given a variable called companies, which represents a collection of
+companies.
+
+Modify each company name so that the letters in the even positions are
+capitalized and the letters in the odd positions are lowercase.
+
+A number of companies are represented as null and those companies must be
+excluded from the final result.
+
+Save your result in a variable called result
+
+Example Solution::
+Assume that
+companies is
+["apple", "ibm", null, "netflix", null]
+Then
+result is
+["ApPlE", "IbM", "NeTfLiX"]
+"""
 from to_do import TODO
 
 

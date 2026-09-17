@@ -1,3 +1,64 @@
+"""
+You are given a variable called scandinavia, which represents a collection
+of countries with their details.
+
+Determine the total population in Scandinavia based on the provided data
+and save your result in a variable called result
+
+Raise an Assertion exception in case one or more countries in the collection
+do not belong to Scandinavia.
+
+The Scandinavian countries are the following:
+
+Denmark
+Norway
+Sweden
+Finland
+Iceland
+Faroe Islands
+Greenland
+Åland
+Example Solution 1
+Assume that
+scandinavia is
+{
+    "Sweden" to {
+        "population" to 10.42,
+        "capital" to "Stockholm"
+    },
+    "Norway" to {
+        "population" to 5.4,
+        "capital" to "Oslo"
+    },
+    "Finland" to {
+        "population" to 5.5,
+        "capital" to "Helsinki"
+    },
+}
+Then
+result is 21.32
+Example Solution 2
+Assume that
+scandinavia is
+{
+    "Sweden" to {
+        "population" to 10.42,
+        "capital" to "Stockholm"
+    },
+    "Norway" to {
+        "population" to 5.4,
+        "capital" to "Oslo"
+    },
+    "Panama" to {
+        "population" to 4.3,
+        "capital" to "Panama"
+    },
+}
+Then
+An Assertion exception is raised
+Notes
+Assume the key population will always be present in the collection scandinavia
+"""
 from typing import Any
 
 from to_do import TODO
