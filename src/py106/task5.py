@@ -1,3 +1,16 @@
+"""
+You are given the variable word. Determine if it is an isogram.
+
+Store your result in a variable called result.
+
+Assign a value of false to result if word is empty.
+Assign a value of false to result if word is null
+Note
+Your code cannot be case sensitive.
+Hint
+An isogram is a word that has no repeated letters. Some examples include:
+Algorithm, space, and copyright.
+"""
 from to_do import TODO
 
 

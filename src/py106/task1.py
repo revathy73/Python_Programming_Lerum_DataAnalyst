@@ -1,3 +1,15 @@
+"""
+You are given the variable sentence. Use it to calculate its length.
+
+Save your result in a variable called result.
+
+Assign a value of 0 to result if sentence is null.
+Example Solution
+Assume that
+sentence is "I love GBG"
+Then
+result is 10
+"""
 from to_do import TODO
 
 

@@ -1,3 +1,16 @@
+"""
+You are given a list called items. Use it to count the number of elements
+that are null.
+
+Save your result in a variable called result.
+
+Assign a value of 0 to result if items is null.
+Example Solution
+Assume that
+items is [1, null, 2, null, 3]
+Then
+result is 2
+"""
 from to_do import TODO
 
 
