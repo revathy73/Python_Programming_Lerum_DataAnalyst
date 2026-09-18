@@ -1,3 +1,31 @@
+"""
+You are given a map called classroom in which the keys are the names of
+students and the values are their final grades.
+
+You are also given a list called students, which represents the names of
+students. Find the student from the list students who has the highest grade.
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+classroom is
+{
+    "Jane" to 10.0,
+    "John" to 9.5,
+    "Petter" to 8.0
+}
+students is
+["Petter", "Jose", "Richard", "Ana"]
+Then
+result is Petter
+Notes
+Assume that there is always a single student with the highest grade.
+The smallest grade a student can have is 0.0
+Set the result to be an empty string in case no student in students is in
+classroom
+
+"""
 from to_do import TODO
 
 

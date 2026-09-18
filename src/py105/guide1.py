@@ -1,3 +1,20 @@
+"""
+You are given the variables a and b. Create a map called result whose keys
+go from a to b, inclusive.
+
+Each value is double its key whenever the key is an even number. Otherwise,
+the value is triple the key when the number is odd.
+
+In case a >= b, set result to be an empty map.
+
+Example Solution
+Assume that
+a is 1
+b is 3
+Then
+result is
+{1 to 3, 2 to 4, 3 to 9}
+"""
 from to_do import TODO
 
 

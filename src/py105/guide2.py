@@ -1,3 +1,25 @@
+"""
+Create a map called result in which the keys are all the letters of the
+alphabet in lowercase.
+
+For the letters located at even positions, its value is the same letter
+written in uppercase.
+
+For the letters located at odd positions, its value is the same letter but
+written twice.
+
+Example Solution
+Assume that
+a is at position 0
+Then
+result is
+{
+    "a" to "A",
+    "b" to "bb",
+    "c" to "C",
+    ...
+}
+"""
 import string
 from operator import index
 
