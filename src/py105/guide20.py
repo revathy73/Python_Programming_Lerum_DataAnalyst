@@ -1,3 +1,34 @@
+"""
+You are given a map called hardDrive in which the keys are file names and
+the values are another map with information about the file.
+
+Determine the file extension of the file with the smallest size.
+
+Assume that
+hardDrive is
+{
+    "app" to {
+        "size" to 9.3,
+        "extension" to "py"
+    },
+    "main" to {
+        "size" to 4.1,
+        "extension" to "kt"
+    },
+    "run" to {
+        "size" to 2.9,
+        "extension" to "pdf"
+    },
+}
+Then
+result is pdf
+Hint
+The inner map will always have a key called size where you can find the size
+of the file.
+The inner map will always have a key called extension where you can find the
+extension of the file.
+"""
+
 from typing import Any
 import math
 from to_do import TODO

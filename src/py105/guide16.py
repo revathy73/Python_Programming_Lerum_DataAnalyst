@@ -1,3 +1,27 @@
+"""
+You are given a map called hardDrive in which the keys represent file names
+and the values represent the size in megabytes of each file.
+
+Return a map that shows the size of each file in gigabytes.
+
+Assume that
+hardDrive is
+{
+    "cv.pdf" to 5.5,
+    "screen.png" to 1.0,
+    "app.py" to 3.4
+}
+Then
+result is
+{
+    "cv.pdf" to 0.005371,
+    "screen.png" to 0.0009765,
+    "app.py" to 0.0033203125
+}
+Note
+1 MB = 0.0009765625 GB
+"""
+
 from to_do import TODO
 
 

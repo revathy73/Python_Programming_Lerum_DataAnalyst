@@ -1,3 +1,26 @@
+"""
+You are given the variable classroom, which is a collection of students.
+Each student is represented as a map in which the key is gpa and the value
+is the GPA of that student.
+
+Calculate the average GPA of the classroom and save your result in a
+variable called result
+
+Example Solution
+Assume that
+classroom is
+[
+    {"gpa" to 10.0},
+    {"gpa" to 9.0},
+    {"gpa" to 7.5}
+]
+Then
+result is 8.83
+Hint
+The inner map will always have a key called gpa where you can find the grade
+of a given student.
+"""
+
 from to_do import TODO
 
 
