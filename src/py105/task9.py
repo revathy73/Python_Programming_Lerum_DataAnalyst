@@ -1,3 +1,25 @@
+"""
+You are given the map grades. It contains a list of grades for various
+students. Determine the average grade of the class.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+grades is
+{
+    "Ana"  to [4.0, 4.5, 5.0],
+    "John" to [5.0, 5.0, 3.0],
+    "Lise" to [5.0, 5.0, 5.0]
+}
+Then
+result is 4.61
+Notes
+Do not use the built-in function sum().
+Do not use the built-in function average().
+Use conditional statements and loops in your solution.
+"""
+
 from itertools import count
 
 from to_do import TODO

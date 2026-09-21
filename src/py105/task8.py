@@ -1,3 +1,27 @@
+"""
+You are given the variable grades, which is a map containing the list of all
+the grades for various students. Determine the student that has the highest
+average grade in the class
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+grades is
+{
+    "Ana"  to [4.0, 4.5, 5.0],
+    "John" to [5.0, 5.0, 3.0],
+    "Lise" to [5.0, 5.0, 5.0]
+}
+Then
+result is Lise
+Notes
+Use conditional statements and loops in your solution.
+Assume that no two students will have the same average grade.
+Do not use the built-in function sum().
+Do not use the built-in function average().
+"""
+
 from to_do import TODO
 
 
