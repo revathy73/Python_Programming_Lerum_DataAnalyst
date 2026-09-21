@@ -1,3 +1,18 @@
+"""
+Store in a collection the letters of the English alphabet. Additionally, all vowels must be in uppercase.
+
+Save your result in a variable called result
+
+Example Solution
+The vowels are the following:
+
+a
+e
+i
+o
+u
+"""
+
 import string
 
 from to_do import TODO

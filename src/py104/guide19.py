@@ -1,3 +1,20 @@
+"""
+You are given the variables a and b, which represent numbers.
+
+Create a mutable collection containing the odd numbers that are multiples
+of 3 between a and b, inclusive.
+
+Save your result in a variable called result
+
+Assume that
+a is 6
+b is 18
+Then
+result is [9, 15]
+Notes
+Assume a is always smaller than b
+"""
+
 from to_do import TODO
 
 

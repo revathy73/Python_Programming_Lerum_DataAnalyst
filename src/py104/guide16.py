@@ -1,3 +1,26 @@
+"""
+You are given the variable called items, which represents the names of
+students.
+
+Identify all the students whose names start with the letter H.
+
+Example Solution
+Assume that
+items is
+[
+    "Elena",
+    "Helen",
+    "Humberto",
+    "John",
+    "Henry"
+]
+Then
+result is
+["Helen", "Humberto", "Henry"]
+Notes
+Your solution cannot be case-sensitive
+"""
+
 from to_do import TODO
 
 

@@ -1,3 +1,22 @@
+"""
+You are given the variables a and b.
+
+Create a collection that contains all the odd numbers between a and b, inclusive. Additionally, for every odd number that is divisible by 5, raise it to the second power before adding it to the list.
+
+In the case that a is greater than or equal to b, set result to be an empty collection.
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+a is 5
+b is 10
+Then
+result is [25, 7, 9]
+Notes
+Do not use any built-in function, like indexOf(), to solve the problem.
+"""
+
 from to_do import TODO
 
 

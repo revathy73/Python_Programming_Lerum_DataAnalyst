@@ -1,3 +1,20 @@
+"""
+You are given a variable called items, which represents a collection of countries.
+
+Multiply the index of the last element by the length of the first country. Save your result in a variable called result
+
+In case the variable items has no countries, set result to be -1
+
+Example Solution
+Assume that
+items is
+["Sweden", "Norway", "Italy", "Panama"]
+Then
+result is 18
+Notes
+Do not use any built-in function, like indexOf(), to solve the problem.
+"""
+
 from operator import index
 
 from to_do import TODO

@@ -1,3 +1,30 @@
+"""
+You are given the variable called items, which represents a collection of files. Create a collection that only contains the programming files.
+
+Save your result in a variable called result
+
+Example Solution
+A file that has one of the following extensions is considered a programming file:
+
+kt
+py
+yml
+json
+java
+Assume that
+items is
+[
+    "cv.pdf",
+    "screenshot.png",
+    "app.py",
+    "main.kt",
+    "thesis.pptx"
+]
+Then
+result is
+["app.py", "main.kt"]
+"""
+
 from to_do import TODO
 
 

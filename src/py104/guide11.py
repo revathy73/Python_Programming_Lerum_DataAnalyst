@@ -1,3 +1,18 @@
+"""
+You are given the variable items, which represents a collection of numbers.
+
+Modify the collection such that the numbers that are divisible by 11 are
+multiplied by 3.
+
+Example Solution
+Assume that
+items is
+[99, 78, 66, 55, 9, 10, 6, 11, 55]
+Then
+result is
+[297, 78, 198, 165, 9, 10, 6, 33, 165]
+"""
+
 from to_do import TODO
 
 

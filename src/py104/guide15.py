@@ -1,3 +1,29 @@
+"""
+You are given a variable called items, which represents a collection of
+names.
+
+Determine whether or not the length of the name located at the end of the
+collection is the same as the length of the name located in the middle of
+the list.
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+items is
+[
+    "John",
+    "Jane",
+    "Roberto",
+    "Mary",
+    "Persona"
+]
+Then
+result is true
+Notes
+Assume the collection will always have a clear middle.
+"""
+
 from to_do import TODO
 
 

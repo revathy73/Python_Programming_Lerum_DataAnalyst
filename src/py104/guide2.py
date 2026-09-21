@@ -1,3 +1,18 @@
+"""
+You are given a variable called items, which represents a collection of three grades. Find the highest grade of the three and save it in a variable called result.
+
+In case items does not have exactly three elements, set the result to be -1
+
+Example Solution
+Assume that
+items is [70, 80, 69]
+Then
+result is 80
+Notes
+Do not use any built-in function, like max(), to solve the problem.
+Assume that no item appears more than once in the given list.
+"""
+
 from calendar import firstweekday
 
 from to_do import TODO

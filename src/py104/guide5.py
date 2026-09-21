@@ -1,3 +1,11 @@
+"""
+Create a collection with all the letters in the English alphabet.
+
+Capitalize each letter located at an even position and set the letters located at odd positions as lowercase.
+
+Save your result in a variable called result
+"""
+
 from to_do import TODO
 import  string
 

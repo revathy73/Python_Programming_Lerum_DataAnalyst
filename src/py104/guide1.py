@@ -1,6 +1,17 @@
 """
+You are given a variable called items, which represents a collection of numbers.
 
+Multiply the first, third, fifth, and last elements of the collection. Save your result in a variable called result
+
+In case the variable items has less than five elements, set result to be -1
+
+Example Solution
+Assume that
+items is [1,2,3,4,5,6]
+Then
+result is 90
 """
+
 from pkgutil import iter_modules
 
 from to_do import TODO

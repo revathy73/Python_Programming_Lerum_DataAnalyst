@@ -1,3 +1,17 @@
+"""
+You are given the variable items, which represents a collection of numbers.
+
+Create a new collection which is the result of multiplying each element in items by its position.
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+items is [1, 3, 5, 7]
+Then
+result is [0, 3, 10, 21]
+"""
+
 from to_do import TODO
 
 

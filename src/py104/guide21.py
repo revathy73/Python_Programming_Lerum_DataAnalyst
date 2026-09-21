@@ -1,3 +1,30 @@
+"""
+You are given the variables a and b. Each variable represents a collection
+of emails.
+
+Determine the emails that are present in b but not in a.
+
+Assume that
+a is
+{
+    "jim@gmail.com",
+    "jane@outlook.se",
+    "info@alpha.se"
+}
+b is
+{
+    "jim@gmail.com",
+    "jane@outlook.se",
+    "info@beta.se",
+    "info@vcs.se"
+}
+Then
+result is
+{"info@beta.se", "info@vcs.se"}
+Notes
+Do not use any built-in function
+"""
+
 from to_do import TODO
 
 

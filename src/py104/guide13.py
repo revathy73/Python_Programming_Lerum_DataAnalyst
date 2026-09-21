@@ -1,3 +1,19 @@
+"""
+You are given the variables a and b. Each represents a word.
+
+Create a collection containing the letters that are present in both given
+words.
+
+Example Solution
+Assume that
+a is "Panama"
+b is "Sweden"
+Then
+result is [n]
+Notes
+Your solution must be case-sensitive
+"""
+
 from to_do import TODO
 
 

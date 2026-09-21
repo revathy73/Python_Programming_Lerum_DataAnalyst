@@ -1,3 +1,27 @@
+"""
+You are given the variable items, which represents a collection of words.
+
+Modify the collection such that the words located in even positions are capitalized and those in odd positions are lowercase.
+
+Example Solution
+Assume that
+items is
+[
+    "Kotlin",
+    "Python",
+    "Linero Tech",
+    "JetBrains"
+]
+Then
+result is
+[
+    "KOTLIN",
+    "python",
+    "LINERO TECH",
+    "jetbrains"
+]
+"""
+
 from to_do import TODO
 
 

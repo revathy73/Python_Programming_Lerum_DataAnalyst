@@ -1,3 +1,19 @@
+"""
+You are given a variable called items, which represents a collection of
+numbers.
+
+Access the number located in the middle of the collection. Save the result
+in a variable called result.
+
+Example Solution
+Assume that
+items is [1, 5, 7, 9, 10]
+Then
+result is 7
+Notes
+Assume that items will always have a clear middle number.
+"""
+
 from to_do import TODO
 
 

@@ -1,3 +1,15 @@
+"""
+You are given the variable items, which represents a collection of numbers.
+
+Remove all the numbers that are not multiples of 10
+
+Example Solution
+Assume that
+items is [1, 5, 10, 60, 77, 71, 80, 9]
+Then
+result is [10, 60, 80]
+"""
+
 from to_do import TODO
 
 

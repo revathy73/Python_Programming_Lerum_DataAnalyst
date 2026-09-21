@@ -1,3 +1,25 @@
+"""
+You are given the variables a and b, which represent numbers.
+
+Create a collection that contains all the numbers between a and b, but not
+including a and b.
+
+The following conditions need to be satisfied:
+
+The numbers that are odd and divisible by 5 must be multiplied by 3
+The numbers that are even and divisible by 5 must be multiplied by 5
+All other numbers just need to be added to the list
+Set result to be an empty list in the scenario that b is smaller than a
+
+Example Solution
+Assume that
+a is 5
+b is 16
+Then
+result is
+[6, 7, 8, 9, 50, 11, 12, 13, 14, 45]
+"""
+
 from to_do import TODO
 
 

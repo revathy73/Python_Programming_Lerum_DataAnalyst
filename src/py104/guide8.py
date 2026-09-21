@@ -1,3 +1,34 @@
+"""
+You are given the variable items, which represents a collection of countries.
+
+Remove all the countries that are not Scandinavian countries.
+
+Example Solution
+The Scandinavian countries are the following:
+
+Denmark
+Norway
+Sweden
+Finland
+Iceland
+Faroe Islands
+Greenland
+Åland
+Assume that
+items is
+[
+    "Sweden",
+    "Panama",
+    "Canada",
+    "Denmark",
+    "Spain"
+]
+Then
+result is ["Sweden", "Denmark"]
+Notes
+Your solution cannot be case-sensitive
+"""
+
 from to_do import TODO
 
 

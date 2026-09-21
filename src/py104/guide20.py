@@ -1,3 +1,20 @@
+"""
+You are given the variables a and b. Each variable represents a collection
+of numbers.
+
+Create a set that contains the numbers that are present in both a and b.
+
+Save your result in a variable called result
+
+Assume that
+a is {1, 3, 5, 7, 8}
+b is {7, 8, 9, 3}
+Then
+result is {3, 7, 8}
+Notes
+Do not use any built-in function
+"""
+
 from to_do import TODO
 
 
