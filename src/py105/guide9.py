@@ -1,5 +1,23 @@
 """
+You are given the variable word, which represents a word.
 
+Determine how many times each letter in word appears.
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+word is apple
+Then
+result is
+{
+    "a" to 1,
+    "p" to 2,
+    "l" to 1,
+    "e" to 1
+}
+Notes
+Your solution must be case-sensitive
 """
 from to_do import TODO
 

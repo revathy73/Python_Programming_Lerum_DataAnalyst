@@ -1,5 +1,28 @@
 """
+You are given a map called hardDrive in which the keys represent file names
+and the values represent the size in megabytes of each file.
 
+Determine how many files are programming-related. Save your result in a
+variable called result
+
+Example Solution::
+A file that has one of the following extensions is considered a programming
+file:
+
+kt
+py
+yml
+json
+java
+Assume that
+hardDrive is
+{
+    "cv.pdf" to 5.5,
+    "screen.png" to 1.0,
+    "app.py" to 3.4
+}
+Then
+result is 1
 """
 from to_do import TODO
 

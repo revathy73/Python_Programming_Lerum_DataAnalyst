@@ -1,3 +1,25 @@
+"""
+You are given a list called names.
+
+Determine how many times each name appears in the list.
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+names is
+["Anna", "Anja", "Mary", "Anna"]
+Then
+result is
+{
+    "Anna" to 2,
+    "Anja" to 1,
+    "Mary" to 1
+}
+Notes
+Your result must be case sensitive
+"""
+
 from to_do import TODO
 
 
