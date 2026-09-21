@@ -1,3 +1,23 @@
+"""
+You are given the variable items. Identify the three elements with the highest value.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+items is [60, 9, 7, 10]
+Then
+result is [9, 10, 60]
+Notes
+Assume that items will always have at least 3 elements.
+Do not use the built-in function max().
+Do not use the built-in function takeLast().
+Do not use the built-in function take().
+Do not use the built-in function subList().
+result cannot have repeated items.
+result must have the elements organized in ascending order.
+"""
+
 from to_do import TODO
 
 

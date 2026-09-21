@@ -1,3 +1,11 @@
+"""
+You are given the variable items. Select a random element from it.
+
+Save your result in a variable called result.
+
+If items is empty, then set result to an empty string.
+"""
+
 import random
 
 from to_do import TODO

@@ -1,3 +1,19 @@
+"""
+You are given the variable items. Identify all the elements that appear
+more than once.
+
+Save the repeated elements in a variable called result.
+
+Example Solution
+Assume that
+items is [1, 1, 1, 2, 2, 3]
+Then
+result is [1, 2]
+Notes
+result cannot contain repeated elements.
+At least one of your solutions must use a loop
+"""
+
 from to_do import TODO
 
 

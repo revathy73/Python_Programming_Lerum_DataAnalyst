@@ -1,3 +1,21 @@
+"""
+You are given the variable items. Create a new list by multiplying each
+element of items by the previous element. For the element at index 0,
+multiply it by itself.
+
+Save your result in a variable called result.
+
+If items is an empty list, then set result to be an empty list.
+
+Example Solution
+Assume that
+items is [5, 2, 3, 4]
+Then
+result is [25, 10, 6, 12]
+Notes
+At least one of your solutions must use a loop
+"""
+
 from to_do import TODO
 
 

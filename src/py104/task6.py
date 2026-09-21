@@ -1,3 +1,18 @@
+"""
+You are given the variable sentence. Change to uppercase every character
+located in an even position.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+sentence is I like Gothenburg
+Then
+result is I LiKe GOtHeNbUrG
+Notes
+At least one of your solutions must use a loop
+"""
+
 from to_do import TODO
 
 

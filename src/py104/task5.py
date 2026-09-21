@@ -1,3 +1,17 @@
+"""
+You are given the variable items. Multiply each element by its index.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+items is [1, 5, 11]
+Then
+result is [0, 5, 22]
+Notes
+At least one of your solutions must use a loop
+"""
+
 from operator import index
 
 from to_do import TODO
