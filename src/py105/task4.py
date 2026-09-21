@@ -1,3 +1,20 @@
+"""
+You are given the variables mapa and parameter. Identify all the keys in
+mapa whose value is equivalent to parameter
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+mapa is {1 to 100, 2 to 100, 3 to 200}
+parameter is 100
+Then
+result is [1, 2]
+Hint
+The keys [1, 2] are the only ones paired with parameter, or 100.
+Notes
+Use conditional statements and loops in your solution.
+"""
 from to_do import TODO
 
 
