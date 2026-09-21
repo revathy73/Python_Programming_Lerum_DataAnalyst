@@ -1,3 +1,20 @@
+"""
+You are given a variable called email, which represents the email of a user.
+Determine if the email is valid.
+
+Save your result in a variable called result
+
+A valid email must satisfy all the following conditions:
+It is not empty
+It contains the @ symbol
+It ends with .se
+Example Solution
+Assume that
+email is student@linerotech.com
+Then
+result is false
+"""
+
 from to_do import TODO
 
 

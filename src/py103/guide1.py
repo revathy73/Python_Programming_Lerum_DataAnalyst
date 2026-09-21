@@ -1,3 +1,24 @@
+"""
+You are given the variable country which represents a country in the world.
+
+Create a solution that returns true when the given country is Sweden and
+false for all other countries.
+
+Save your result in a variable called result.
+
+Example Solution 1
+Assume that
+country is Panama
+Then
+result is false
+Example Solution 2
+Assume that
+country is Sweden
+Then
+result is true
+Note
+Your solution cannot be case sensitive
+"""
 from to_do import TODO
 
 

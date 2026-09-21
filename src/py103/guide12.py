@@ -1,3 +1,14 @@
+"""
+You are given a variable number, which represents an integer.
+Determine whether the number is an even value.
+
+Example Solution
+Assume that
+number is 30
+Then
+result is true
+"""
+
 from to_do import TODO
 
 

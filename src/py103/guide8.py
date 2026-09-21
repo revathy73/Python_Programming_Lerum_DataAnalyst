@@ -1,3 +1,25 @@
+"""
+You are given the variable day, which is a number representing a day of the
+week. Use that number to determine the day of the week.
+
+Save your result in a variable called result
+
+Days of the week
+monday is 1
+tuesday is 2
+wednesday is 3
+thursday is 4
+friday is 5
+saturday is 6
+sunday is 7
+error is any number that is not between 1 and 7
+Example Solution
+Assume that
+day is 5
+Then
+result is friday
+"""
+
 from to_do import TODO
 
 

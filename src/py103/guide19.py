@@ -1,3 +1,18 @@
+"""
+You are given the variable sentence, which represents a text.
+Use a while loop to create a new text which is the reverse of sentence
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+sentence is ABCD
+Then
+result is DCBA
+Notes
+Use a while loop to solve the problem
+"""
+
 from to_do import TODO
 
 

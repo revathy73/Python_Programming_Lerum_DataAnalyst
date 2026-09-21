@@ -1,3 +1,25 @@
+"""
+You are given the variable month which represents a month of the year.
+
+Create a solution that returns true when the given month is November and
+false for all other months.
+
+Save your result in a variable called result.
+
+Example Solution 1
+Assume that
+month is December
+Then
+result is false
+Example Solution 2
+Assume that
+month is November
+Then
+result is true
+Note
+Your solution cannot be case sensitive
+"""
+
 from to_do import TODO
 
 

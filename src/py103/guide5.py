@@ -1,3 +1,18 @@
+"""
+You are given the variable capital, which represents the capital of a
+country. Determine if the given capital is Sweden’s capital.
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+capital is Oslo
+Then
+result is false
+Note
+Your solution cannot be case sensitive
+"""
+
 from to_do import TODO
 
 

@@ -1,3 +1,21 @@
+"""
+You are given the variables sentence and character. Use a while loop to
+determine the position at which character first appears in sentence
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+sentence is ABCDA
+character is a
+Then
+result is 0
+Notes
+Use a while loop to solve the problem
+Your program must not be case-sensitive
+Assume that character is always present in sentence
+"""
+
 from to_do import TODO
 
 

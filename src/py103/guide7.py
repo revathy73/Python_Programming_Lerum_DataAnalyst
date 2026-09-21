@@ -1,3 +1,22 @@
+"""
+You are given the variable month, which is a number representing a month
+of the year. Use that number to determine the season of the year.
+
+Save your result in a variable called result
+
+Seasons of the year
+spring occurs between months 3, 4, 5
+summer occurs between months 6, 7, 8
+fall occurs between months 9, 10, 11
+winter occurs between months 12, 1, 2
+error occurs when the value of month is not a number between 1 and 12
+Example Solution
+Assume that
+month is 11
+Then
+result is fall
+"""
+
 from to_do import TODO
 
 

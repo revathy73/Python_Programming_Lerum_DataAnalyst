@@ -1,3 +1,22 @@
+"""
+You are given the variables a, b, c, which represent the sides of a triangle.
+Determine if the triangle is valid.
+
+Save your result in a variable called result
+
+A triangle is valid when all the following conditions are satisfied:
+The sum of a and b is greater than c
+The sum of a and c is greater than b
+The sum of b and c is greater than a
+Example Solution
+Assume that
+a is 30
+b is 30
+c is 30
+Then
+result is true
+"""
+
 from to_do import TODO
 
 

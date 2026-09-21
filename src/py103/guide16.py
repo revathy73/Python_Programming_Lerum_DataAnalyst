@@ -1,3 +1,16 @@
+"""
+You are given the variable sentence, which represents a text.
+Filter the text to only contain the letters located at an even position.
+
+Save the new text in a variable called result
+
+Example Solution
+Assume that
+sentence is Gothenburg
+Then
+result is Gtebr
+"""
+
 from to_do import TODO
 
 

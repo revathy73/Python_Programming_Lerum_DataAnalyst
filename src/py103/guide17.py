@@ -1,3 +1,17 @@
+"""
+You are given the variable sentence, which represents a text.
+Transform the text to make uppercase all the letters located at an even
+position and lowercase all the letters at an odd position.
+
+Save the new text in a variable called result
+
+Example Solution
+Assume that
+sentence is gothenburg
+Then
+result is GoThEnBeRg
+"""
+
 from to_do import TODO
 
 

@@ -1,3 +1,24 @@
+"""
+You are given the variable age, which represents the age of a person.
+Determine the stage of life the person is in.
+
+Save your result in a variable called result.
+
+Stages of life
+infant a person between 0 to 1 year old
+toddler a person between 2 to 4 years old
+child a person between 5 to 12 years old
+teen a person between 13 to 19 years old
+adult a person between 20 to 39 years old
+middle adult a person between 40 to 59 years old
+senior adult a person 60 years old and above.
+Example Solution
+Assume that
+age is 30
+Then
+result is adult
+"""
+
 from to_do import TODO
 
 

@@ -1,3 +1,19 @@
+"""
+You are given the variables a and b, which represent integers.
+Multiply all the odd numbers between a and b, inclusive.
+
+Save your result in a variable called result
+
+In the case that a is greater than or equal to b, set result to equal -1.
+
+Example Solution
+Assume that
+a is 1
+b is 5
+Then
+result is 15
+"""
+
 from to_do import TODO
 
 

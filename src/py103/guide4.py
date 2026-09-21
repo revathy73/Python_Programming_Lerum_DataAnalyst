@@ -1,3 +1,15 @@
+"""
+You are given the variable pin, which represents the pin code of a credit
+card. Determine if the given pin is valid. The pin code is only valid if
+it matches the value 5678
+
+Example Solution
+Assume that
+pin is 1918
+Then
+result is false
+"""
+
 from to_do import TODO
 
 

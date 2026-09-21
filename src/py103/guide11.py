@@ -1,3 +1,23 @@
+"""
+You are given the variables a, b, c, which represent the sides of a triangle.
+Determine if the triangle is equilateral, isosceles, or scalene
+
+Save your result in a variable called result
+
+Types of triangles
+An equilateral triangle is one in which all sides are equal in length.
+An isosceles triangle is one in which at least two sides are equal in
+length
+A scalene triangle is one in which no side is equal in length.
+Example Solution
+Assume that
+a is 30
+b is 30
+c is 30
+Then
+result is equilateral
+"""
+
 from to_do import TODO
 
 
