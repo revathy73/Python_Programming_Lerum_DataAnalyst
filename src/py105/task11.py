@@ -1,3 +1,18 @@
+"""
+You are given the variables mapa and prospect. Determine if mapa has a key with the value prospect
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+mapa is {1 to "A", 2 to "B", 3 to "C"}
+prospect is 1
+Then
+result is true
+Notes
+Use conditional statements and loops in your solution.
+"""
+
 from to_do import TODO
 
 

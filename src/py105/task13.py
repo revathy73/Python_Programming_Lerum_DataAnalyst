@@ -1,3 +1,22 @@
+"""
+You are given the variable sentence. Identify the word that is most used.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+sentence is this This THIS is still the very very same
+Then
+result is this
+Notes
+Your implementation cannot be case-sensitive.
+Do not consider spaces as part of your solution.
+Ignore special characters such as: ,, ;, ., :.
+Assume there will always be one word that is used more than the others.
+Provide the value of result in lowercase.
+Use conditional statements and loops in your solution.
+"""
+
 import re
 
 from to_do import TODO

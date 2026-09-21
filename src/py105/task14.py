@@ -1,3 +1,23 @@
+"""
+You are given the variable sentence. Identify which character was used the most.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+sentence is I am it
+Then
+result is i
+Notes
+Your implementation cannot be case-sensitive.
+Do not consider spaces as part of your solution.
+Ignore special characters such as: ,, ;, ., :
+Assume there will always be one letter that is used more than the others.
+Provide the value of result in lowercase.
+Use conditional statements and loops in your solution.
+Do not use the built-in function max().
+"""
+
 from to_do import TODO
 import re
 

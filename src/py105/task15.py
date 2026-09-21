@@ -1,3 +1,22 @@
+"""
+You are given the variable sentence. Keep count of how many words start
+with each letter of the alphabet.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+sentence is This is the Very small Text
+Then
+result is {i=1, s=1, t=3, v=1}
+Notes
+Your implementation should not be case-sensitive.
+Only store in result the letters that have a counter larger than 0.
+Ignore special characters such as: ,, ;, ., :.
+Assume sentence will never be an empty string.
+Use conditional statements and loops in your solution.
+"""
+
 from pygments.lexer import words
 
 from to_do import TODO
