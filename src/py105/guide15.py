@@ -1,3 +1,29 @@
+"""
+You are given a map called birthdays in which the keys are the names of
+people and the values are the months they were born.
+
+Return a map in which the keys are the names of people and the values are
+the seasons of the year they were born.
+
+Example Solution::
+Spring occurs between months 3, 4, 5
+Summer occurs between months 6, 7, 8
+Fall occurs between months 9, 10, 11
+Winter occurs between months 12, 1, 2
+Assume that
+birthdays is
+{
+    "Rita" to 1,
+    "Jay" to 5
+}
+Then
+result is
+{
+    "Rita" to "Winter",
+    "Jay" to "Spring"
+}
+"""
+
 from to_do import TODO
 
 

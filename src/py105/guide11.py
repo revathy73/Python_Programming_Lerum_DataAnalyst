@@ -1,3 +1,22 @@
+"""
+You are given a map called classroom in which the keys represent student names and the values are their final grades.
+
+Determine the average grade of the class.
+
+Save your result in a variable called result
+
+Example Solution
+Assume that
+classroom is
+{
+    "Far" to 5.0,
+    "Bob" to 4.5,
+    "Ben" to 5.0
+}
+Then
+result is 4.83
+"""
+
 from to_do import TODO
 
 
