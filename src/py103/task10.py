@@ -1,3 +1,23 @@
+"""
+You are given the variable password.
+
+Create a password checker program that determines if the password is valid
+or not.
+
+A password is valid if it complies with all of the following rules:
+
+Minimum length 6 characters.
+Maximum length 10 characters.
+At least 1 letter between [a-z].
+At least 1 letter between [A-Z].
+At least 1 number between [0-9].
+At least 1 of the following characters [$#@].
+Save your result in a variable called result.
+
+Hint
+Read about Regular Expressions and try to use them in your solution.
+"""
+
 import re
 
 from to_do import TODO

@@ -1,3 +1,25 @@
+"""
+You are given the variables a and b. Add the numbers between a and b,
+inclusive.
+
+Save your result in a variable called result.
+
+If a >= b, then result is equal to 0
+Example Solution #1
+Assume that
+a is 1
+b is 5
+Then
+result is 15
+Example Solution #2
+Assume that
+a is 3
+b is 3
+Then
+result is 0
+Notes
+You must use loops to find the solution.
+"""
 from to_do import TODO
 
 

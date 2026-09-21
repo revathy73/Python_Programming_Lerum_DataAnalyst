@@ -1,3 +1,19 @@
+"""
+You are given the variable sentence.
+
+Count the number of characters in the variable sentence using loops.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+sentence is I love GBG
+Then
+result is 10
+Notes
+Spaces count as characters too
+"""
+
 from to_do import TODO
 
 

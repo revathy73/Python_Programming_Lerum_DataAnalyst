@@ -1,3 +1,16 @@
+"""
+You are given the variable number. Add all of its digits.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+number is 123
+Then
+result is 6
+Hint
+123 = 1 + 2 + 3 = 6
+"""
 from to_do import TODO
 
 

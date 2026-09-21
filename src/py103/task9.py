@@ -1,3 +1,34 @@
+"""
+You are given the variable temperature. It is a String representing a
+temperature in formats such as: 15C or 60F.
+
+Convert the given temperature to the opposite unit.
+
+Save your result in a variable result.
+
+Example Solution #1
+Assume that
+temperature is -30C
+Then
+result is -22F
+Example Solution #2
+Assume that
+temperature is 50f
+Then
+result is 10C
+Conversion Formulas:
+Celsius → Fahrenheit: °F = (°C × 9/5) + 32
+Fahrenheit → Celsius: °C = (°F − 32) × 5/9
+Notes
+Your code must work when temperature is a positive or negative value.
+The unit in result must be in uppercase.
+The unit in temperature can be given in uppercase or lowercase. Your code
+must handle both.
+The unit in temperature will always be either Celsius or Fahrenheit.
+Provide your solution without decimals
+Do not use floor division
+"""
+
 from to_do import TODO
 
 

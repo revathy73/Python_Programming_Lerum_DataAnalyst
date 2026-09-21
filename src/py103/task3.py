@@ -1,3 +1,18 @@
+"""
+You are given the variable number. Use it to calculate the factorial of the
+number.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+number is 5
+Then
+result is 120
+Hint
+Factorial of 5 = 5 * 4 * 3 * 2 * 1 = 120
+"""
+
 from to_do import TODO
 
 

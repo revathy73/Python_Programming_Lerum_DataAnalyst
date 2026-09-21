@@ -1,3 +1,19 @@
+"""
+You are given the variables a and b. Find the result of raising a to the
+power of b using loops.
+
+Save your result in a variable called result
+
+If a and b are 0, then result is equal to 1.
+Example Solution
+Assume that
+a is 2
+b is 3
+Then
+result is 8
+Notes
+You must use loops to find the solution.
+"""
 from to_do import TODO
 
 

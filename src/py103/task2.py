@@ -1,3 +1,21 @@
+"""
+You are given the variable number. Use it to determine if its value is a
+prime number or not.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+number is 5
+Then
+result is true
+Hint
+A prime number is a positive integer greater than 1 with only two factors:
+itself and one.
+
+Examples of prime numbers: 2, 3, 5, 7, 11, 17, 19, 23
+"""
+
 from to_do import TODO
 
 
