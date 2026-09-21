@@ -1,3 +1,19 @@
+"""
+You are given the variable items. For each element in items that has an
+even value, multiply it by 2 and for every element with an odd value,
+multiply it by 3.
+
+Save your result in a variable called result.
+
+Example Solution
+Assume that
+items is [1, 2, 3, 4, 5]
+Then
+result is [3, 4, 9, 8, 15]
+Notes
+At least one of your solutions must use a loop
+"""
+
 from to_do import TODO
 
 
