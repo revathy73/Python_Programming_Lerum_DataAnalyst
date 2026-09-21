@@ -1,3 +1,34 @@
+"""
+In each question you are given the variable customers. It contains the
+emails of the people who bought a product.
+
+Use this information to solve the questions below.
+
+Which customers purchased multiple times?
+
+Save your result in a variable called result of type List<String>.
+
+result cannot have repeated elements.
+Example Solution
+Assume that
+customers is
+[
+    "mary@tv.com",
+    "john@nas.gov",
+    "john@nas.gov",
+    "ema@post.com",
+    "ema@post.com"
+]
+Then
+result is
+[
+    "john@nas.gov",
+    "ema@post.com"
+]
+Notes
+At least one of your solutions must use a loop
+"""
+
 from to_do import TODO
 
 
